@@ -8,6 +8,7 @@ export default function App() {
   const [entities, setEntities] = useState([])
   const [alerts, setAlerts] = useState([])
   const [tab, setTab] = useState('findings')
+  const [focus, setFocus] = useState(null) // { alertIds, flagId, scrollTo } from a flag's evidence
   const [selectedId, setSelectedId] = useState(null)
   const [status, setStatus] = useState('loading')
   const [generating, setGenerating] = useState(false)
@@ -48,6 +49,16 @@ export default function App() {
     }
   }
 
+  function handleViewAlerts(alertIds, flag) {
+    setFocus({ alertIds, flagId: flag.flag_id, rule: flag.rule_triggered })
+    setTab('dataset')
+  }
+
+  function switchTab(next) {
+    if (next === 'findings') setFocus(null)
+    setTab(next)
+  }
+
   const selected = entities.find((e) => e.entity_id === selectedId)
 
   return (
@@ -69,13 +80,13 @@ export default function App() {
       <nav className="tabs">
         <button
           className={tab === 'findings' ? 'tab active' : 'tab'}
-          onClick={() => setTab('findings')}
+          onClick={() => switchTab('findings')}
         >
           Findings
         </button>
         <button
           className={tab === 'dataset' ? 'tab active' : 'tab'}
-          onClick={() => setTab('dataset')}
+          onClick={() => switchTab('dataset')}
         >
           Dataset <span className="tab-count">{alerts.length}</span>
         </button>
@@ -94,9 +105,13 @@ export default function App() {
 
       {status === 'ready' &&
         (tab === 'dataset' ? (
-          <DatasetView alerts={alerts} />
+          <DatasetView alerts={alerts} focus={focus} onClearFocus={() => setFocus(null)} />
         ) : selected ? (
-          <EntityDetail entity={selected} onBack={() => setSelectedId(null)} />
+          <EntityDetail
+            entity={selected}
+            onBack={() => setSelectedId(null)}
+            onViewAlerts={handleViewAlerts}
+          />
         ) : (
           <Dashboard entities={entities} onSelect={setSelectedId} />
         ))}

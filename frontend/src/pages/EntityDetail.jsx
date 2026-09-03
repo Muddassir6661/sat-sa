@@ -2,7 +2,7 @@ import Badge from '../components/Badge'
 import FlagCard from '../components/FlagCard'
 import { riskBand } from '../format'
 
-export default function EntityDetail({ entity, onBack }) {
+export default function EntityDetail({ entity, onBack, onViewAlerts }) {
   const score = Math.round(entity.risk_score)
   const band = riskBand(score)
 
@@ -29,7 +29,9 @@ export default function EntityDetail({ entity, onBack }) {
           across every check.
         </div>
       ) : (
-        entity.flags.map((f) => <FlagCard key={f.flag_id} flag={f} />)
+        entity.flags.map((f) => (
+          <FlagCard key={f.flag_id} flag={f} onViewAlerts={onViewAlerts} />
+        ))
       )}
     </>
   )

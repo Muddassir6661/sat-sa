@@ -6,7 +6,7 @@ const SEARCH_FIELDS = ['alert_id', 'investigation_notes', 'asset_id', 'analyst_i
 
 const uniqueSorted = (alerts, key) => [...new Set(alerts.map((a) => a[key]))].sort()
 
-export default function DatasetView({ alerts }) {
+export default function DatasetView({ alerts, focus, onClearFocus }) {
   const [entity, setEntity] = useState('')
   const [severity, setSeverity] = useState('')
   const [disposition, setDisposition] = useState('')
@@ -15,18 +15,28 @@ export default function DatasetView({ alerts }) {
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase()
+    const cited = focus ? new Set(focus.alertIds) : null
     return alerts.filter((a) => {
+      if (cited && !cited.has(a.alert_id)) return false
       if (entity && a.entity_id !== entity) return false
       if (severity && a.severity !== severity) return false
       if (disposition && a.disposition !== disposition) return false
       if (q && !SEARCH_FIELDS.some((f) => String(a[f] ?? '').toLowerCase().includes(q))) return false
       return true
     })
-  }, [alerts, entity, severity, disposition, search])
+  }, [alerts, entity, severity, disposition, search, focus])
 
   useEffect(() => {
     setPage(1)
-  }, [entity, severity, disposition, search])
+  }, [entity, severity, disposition, search, focus])
+
+  // Arriving from a flag should show exactly what that flag cited, not an
+  // intersection with filters left over from earlier browsing.
+  useEffect(() => {
+    if (focus) {
+      setEntity(''); setSeverity(''); setDisposition(''); setSearch('')
+    }
+  }, [focus])
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
   const start = (page - 1) * PAGE_SIZE
@@ -35,6 +45,20 @@ export default function DatasetView({ alerts }) {
 
   return (
     <>
+      {focus && (
+        <div className="focus-banner">
+          <span>
+            Showing <strong>{focus.alertIds.length}</strong> alert
+            {focus.alertIds.length === 1 ? '' : 's'} cited by{' '}
+            <span className="mono">{focus.flagId}</span>
+            <span className="focus-rule">{focus.rule}</span>
+          </span>
+          <button className="link-btn" onClick={onClearFocus}>
+            Clear · show all {alerts.length}
+          </button>
+        </div>
+      )}
+
       <div className="filters">
         <input
           className="search"
@@ -72,7 +96,7 @@ export default function DatasetView({ alerts }) {
         )}
       </div>
 
-      <AlertTable alerts={visible} />
+      <AlertTable alerts={visible} highlightIds={focus?.alertIds} />
 
       <div className="pager">
         <span>

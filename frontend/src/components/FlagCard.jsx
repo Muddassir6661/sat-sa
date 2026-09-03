@@ -1,8 +1,10 @@
 import Badge from './Badge'
 import { formatEvidence, humanize, severityColor, typeColor, typeLabel } from '../format'
 
-export default function FlagCard({ flag }) {
+export default function FlagCard({ flag, onViewAlerts }) {
   const entries = Object.entries(flag.evidence ?? {})
+  // Only two of the five rules cite alert ids; the rest have no rows to link to.
+  const citedIds = Array.isArray(flag.evidence?.alert_ids) ? flag.evidence.alert_ids : null
 
   return (
     <div className="flag-card" style={{ '--type-color': typeColor(flag.flag_type) }}>
@@ -23,10 +25,26 @@ export default function FlagCard({ flag }) {
           {entries.map(([key, value]) => (
             <div className="ev-item" key={key}>
               <span className="ev-key">{humanize(key)}</span>
-              <span className="ev-val">{formatEvidence(value)}</span>
+              {key === 'alert_ids' && citedIds ? (
+                <span className="ev-val ev-ids">
+                  {citedIds.map((id) => (
+                    <button key={id} className="alert-chip" onClick={() => onViewAlerts(citedIds, flag, id)}>
+                      {id}
+                    </button>
+                  ))}
+                </span>
+              ) : (
+                <span className="ev-val">{formatEvidence(value)}</span>
+              )}
             </div>
           ))}
         </div>
+      )}
+
+      {citedIds && (
+        <button className="link-btn view-all" onClick={() => onViewAlerts(citedIds, flag)}>
+          View all {citedIds.length} cited alerts in the dataset →
+        </button>
       )}
     </div>
   )

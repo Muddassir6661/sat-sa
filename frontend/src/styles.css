@@ -175,6 +175,28 @@ body {
   padding: 1px 7px; font-size: 10.5px; font-family: var(--mono); color: var(--muted);
 }
 
+/* ---------- evidence click-through ---------- */
+.ev-ids { display: flex; flex-wrap: wrap; gap: 5px; }
+.alert-chip {
+  background: #0f1a26; color: var(--low); border: 1px solid #24405c;
+  border-radius: 5px; padding: 2px 7px; font-family: var(--mono);
+  font-size: 11.5px; cursor: pointer;
+}
+.alert-chip:hover { background: #16283a; border-color: var(--low); }
+.view-all { display: block; margin-top: 12px; font-size: 12.5px; }
+
+.focus-banner {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  flex-wrap: wrap; background: rgba(70, 169, 255, .08);
+  border: 1px solid #24405c; border-radius: 9px;
+  padding: 12px 15px; margin-bottom: 14px; font-size: 13px;
+}
+.focus-banner .mono { font-family: var(--mono); color: var(--low); }
+.focus-rule {
+  font-family: var(--mono); color: var(--muted); font-size: 11.5px;
+  margin-left: 9px; padding-left: 9px; border-left: 1px solid var(--border);
+}
+
 /* ---------- filters ---------- */
 .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
 .filters input, .filters select {
