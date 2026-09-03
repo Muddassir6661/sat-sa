@@ -1,10 +1,13 @@
 import { useCallback, useEffect, useState } from 'react'
-import { generateDataset, getEntities } from './api/client'
+import { generateDataset, getAlerts, getEntities } from './api/client'
 import Dashboard from './pages/Dashboard'
+import DatasetView from './pages/DatasetView'
 import EntityDetail from './pages/EntityDetail'
 
 export default function App() {
   const [entities, setEntities] = useState([])
+  const [alerts, setAlerts] = useState([])
+  const [tab, setTab] = useState('findings')
   const [selectedId, setSelectedId] = useState(null)
   const [status, setStatus] = useState('loading')
   const [generating, setGenerating] = useState(false)
@@ -12,8 +15,9 @@ export default function App() {
 
   const load = useCallback(async () => {
     try {
-      const data = await getEntities()
-      setEntities(data.entities)
+      const [findings, dataset] = await Promise.all([getEntities(), getAlerts()])
+      setEntities(findings.entities)
+      setAlerts(dataset.alerts)
       setStatus('ready')
     } catch (err) {
       setError(err.message)
@@ -29,9 +33,12 @@ export default function App() {
     setGenerating(true)
     setError(null)
     try {
-      const data = await generateDataset()
-      setEntities(data.entities)
-      setSelectedId(null) // findings are for a new dataset; the old entity view is stale
+      const findings = await generateDataset()
+      setEntities(findings.entities)
+      // The dataset was replaced server-side, so the cached rows are stale.
+      const dataset = await getAlerts()
+      setAlerts(dataset.alerts)
+      setSelectedId(null)
       setStatus('ready')
     } catch (err) {
       setError(err.message)
@@ -59,6 +66,21 @@ export default function App() {
         </button>
       </header>
 
+      <nav className="tabs">
+        <button
+          className={tab === 'findings' ? 'tab active' : 'tab'}
+          onClick={() => setTab('findings')}
+        >
+          Findings
+        </button>
+        <button
+          className={tab === 'dataset' ? 'tab active' : 'tab'}
+          onClick={() => setTab('dataset')}
+        >
+          Dataset <span className="tab-count">{alerts.length}</span>
+        </button>
+      </nav>
+
       {status === 'loading' && <div className="state">Running detection…</div>}
 
       {status === 'error' && (
@@ -71,7 +93,9 @@ export default function App() {
       )}
 
       {status === 'ready' &&
-        (selected ? (
+        (tab === 'dataset' ? (
+          <DatasetView alerts={alerts} />
+        ) : selected ? (
           <EntityDetail entity={selected} onBack={() => setSelectedId(null)} />
         ) : (
           <Dashboard entities={entities} onSelect={setSelectedId} />

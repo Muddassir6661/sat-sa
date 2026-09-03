@@ -22,6 +22,41 @@ export const typeColor = (type) =>
 
 export const severityColor = (sev) => `var(--${sev}, var(--muted))`
 
+// Alert severities include "critical", which findings severities do not, so they
+// use their own scale rather than the finding high/medium/low tokens.
+export const alertSeverityColor = (sev) => `var(--sev-${sev}, var(--muted))`
+
+// Preferred column order for the dataset table. Columns not listed here still
+// render, appended in whatever order the API returned them.
+export const ALERT_COLUMNS = [
+  'alert_id',
+  'entity_id',
+  'severity',
+  'category',
+  'disposition',
+  'escalated',
+  'closure_time_minutes',
+  'time_opened',
+  'time_closed',
+  'asset_id',
+  'analyst_id',
+  'investigation_notes',
+]
+
+export function orderColumns(keys) {
+  const known = ALERT_COLUMNS.filter((c) => keys.includes(c))
+  const extra = keys.filter((k) => !ALERT_COLUMNS.includes(k))
+  return [...known, ...extra]
+}
+
+export function formatCell(key, value) {
+  if (value === null || value === undefined || value === '') return null
+  if (typeof value === 'boolean') return value ? 'yes' : 'no'
+  if (key === 'closure_time_minutes') return `${value} min`
+  if (key === 'time_opened' || key === 'time_closed') return String(value).replace('T', ' ')
+  return String(value)
+}
+
 const LABEL_OVERRIDES = { alert_ids: 'Alert IDs', z_score: 'Z-Score' }
 
 export function humanize(key) {

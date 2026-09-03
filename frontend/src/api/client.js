@@ -10,4 +10,6 @@ export const getEntities = () => request('/api/entities')
 
 export const getEntity = (entityId) => request(`/api/entities/${entityId}`)
 
+export const getAlerts = () => request('/api/alerts')
+
 export const generateDataset = () => request('/api/generate-dataset', { method: 'POST' })
