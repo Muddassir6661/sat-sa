@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "entity_id": "ENT-05",
+      "risk_score": 55,
+      "flags": [
+        {
+          "flag_id": "FLG-ENT-05-FASTCLOSE",
+          "rule_triggered": "critical_closed_too_fast",
+          "flag_type": "execution_gap",
+          "severity_of_finding": "high",
+          "reason": "6 critical/high-severity alerts closed well under expected time with no escalation (e.g. AL-152D1BB3 closed in 3.9 min).",
+          "evidence": {
+            "alert_ids": [
+              "AL-152D1BB3",
+              "AL-EB5B24B3",
+              "AL-35ADC977",
+              "AL-ED48E51B",
+              "AL-71A7357B",
+              "AL-8166B8E3"
+            ]
+          }
+        },
+        {
+          "flag_id": "FLG-ENT-05-MLANOMALY",
+          "rule_triggered": "isolation_forest_outlier",
+          "flag_type": "statistical_anomaly",
+          "severity_of_finding": "medium",
+          "reason": "ENT-05 statistically deviates from peer entities \u2014 its average alert closure time is notably lower than peers (z-score -2.51), flagged by anomaly detection across all behavioral features combined.",
+          "evidence": {
+            "anomaly_score": -0.004,
+            "most_deviant_feature": "avg_closure_time",
+            "z_score": -2.51
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "ENT-11",
+      "risk_score": 55,
+      "flags": [
+        {
+          "flag_id": "FLG-ENT-11-LOWVOL",
+          "rule_triggered": "low_alert_volume_vs_peers",
+          "flag_type": "negative_space",
+          "severity_of_finding": "high",
+          "reason": "ENT-11 logged only 13 alerts vs. a peer average of 61 \u2014 unexpectedly low activity may indicate a monitoring blind spot rather than genuinely low risk.",
+          "evidence": {
+            "alert_count": 13,
+            "peer_average": 60.6
+          }
+        },
+        {
+          "flag_id": "FLG-ENT-11-MLANOMALY",
+          "rule_triggered": "isolation_forest_outlier",
+          "flag_type": "statistical_anomaly",
+          "severity_of_finding": "medium",
+          "reason": "ENT-11 statistically deviates from peer entities \u2014 its total alert volume is notably lower than peers (z-score -3.23), flagged by anomaly detection across all behavioral features combined.",
+          "evidence": {
+            "anomaly_score": -0.101,
+            "most_deviant_feature": "alert_volume",
+            "z_score": -3.23
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "ENT-01",
+      "risk_score": 35,
+      "flags": [
+        {
+          "flag_id": "FLG-ENT-01-FASTCLOSE",
+          "rule_triggered": "critical_closed_too_fast",
+          "flag_type": "execution_gap",
+          "severity_of_finding": "high",
+          "reason": "5 critical/high-severity alerts closed well under expected time with no escalation (e.g. AL-CF0F4F42 closed in 0.6 min).",
+          "evidence": {
+            "alert_ids": [
+              "AL-CF0F4F42",
+              "AL-2D3D15F9",
+              "AL-2455E41B",
+              "AL-49A52190",
+              "AL-C06645F7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "ENT-02",
+      "risk_score": 35,
+      "flags": [
+        {
+          "flag_id": "FLG-ENT-02-MISSINGTELEM",
+          "rule_triggered": "missing_critical_asset_telemetry",
+          "flag_type": "negative_space",
+          "severity_of_finding": "high",
+          "reason": "No alerts recorded for ENT-02's core critical asset (AST-ENT-02-CORE) across the full reporting period \u2014 expected regular telemetry from this asset class is absent.",
+          "evidence": {
+            "expected_asset": "AST-ENT-02-CORE"
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "ENT-04",
+      "risk_score": 20,
+      "flags": [
+        {
+          "flag_id": "FLG-ENT-04-MLANOMALY",
+          "rule_triggered": "isolation_forest_outlier",
+          "flag_type": "statistical_anomaly",
+          "severity_of_finding": "medium",
+          "reason": "ENT-04 statistically deviates from peer entities \u2014 its share of duplicate/templated investigation notes is notably higher than peers (z-score 3.20), flagged by anomaly detection across all behavioral features combined.",
+          "evidence": {
+            "anomaly_score": -0.003,
+            "most_deviant_feature": "duplicate_note_ratio",
+            "z_score": 3.2
+          }
+        }
+      ]
+    },
+    {
+      "entity_id": "ENT-03",
+      "risk_score": 0,
+      "flags": []
+    },
+    {
+      "entity_id": "ENT-06",
+      "risk_score": 0,
+      "flags": []
+    },
+    {
+      "entity_id": "ENT-07",
+      "risk_score": 0,
+      "flags": []
+    },
+    {
+      "entity_id": "ENT-08",
+      "risk_score": 0,
+      "flags": []
+    },
+    {
+      "entity_id": "ENT-09",
+      "risk_score": 0,
+      "flags": []
+    },
+    {
+      "entity_id": "ENT-10",
+      "risk_score": 0,
+      "flags": []
+    },
+    {
+      "entity_id": "ENT-12",
+      "risk_score": 0,
+      "flags": []
+    }
+  ]
+}

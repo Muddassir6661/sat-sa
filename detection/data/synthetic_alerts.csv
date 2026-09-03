@@ -1,0 +1,728 @@
+alert_id,entity_id,severity,category,disposition,escalated,time_opened,time_closed,closure_time_minutes,investigation_notes,asset_id,analyst_id
+AL-93499785,ENT-01,medium,unauthorized_access,closed,False,2026-05-17T06:43:10,2026-05-17T08:44:34,121.4,Successful simply director allow firm environment decision wall then fire pretty how.,AST-ENT-01-08,ANL-015
+AL-3B8310E6,ENT-03,medium,phishing,closed,False,2026-01-22T14:10:05,2026-01-22T15:25:17,75.2,Day sell speak artist big the cost for leader energy.,AST-ENT-03-CORE,ANL-021
+AL-BE05854C,ENT-03,high,data_exfiltration,closed,False,2026-06-11T03:13:53,2026-06-11T04:32:29,78.6,Stay perhaps particularly campaign benefit health would newspaper hand certain own.,AST-ENT-03-08,ANL-025
+AL-7D0E66F9,ENT-11,low,data_exfiltration,closed,False,2026-04-19T20:59:35,2026-04-19T21:11:35,12.0,Appear above significant short up hear draw before instead writer front court protect.,AST-ENT-11-10,ANL-016
+AL-C329E24F,ENT-12,low,dos_attempt,closed,False,2026-06-22T06:56:18,2026-06-22T07:44:12,47.9,Continue way hair fight best add necessary technology former scientist guess single more.,AST-ENT-12-15,ANL-010
+AL-6FFBA863,ENT-06,medium,policy_violation,open,False,2026-06-02T00:59:03,,,Director sort smile high open scientist seven recent best care local discussion teacher.,AST-ENT-06-05,ANL-025
+AL-D965C0CF,ENT-04,low,insider_threat,open,False,2026-03-07T01:24:33,,,Bed space fight relate owner Democrat task chance represent.,AST-ENT-04-05,ANL-017
+AL-847837A1,ENT-12,medium,insider_threat,closed,False,2026-02-09T09:16:22,2026-02-09T10:12:58,56.6,Understand wait wife health majority political open impact although TV his not create.,AST-ENT-12-15,ANL-020
+AL-93A2F0E8,ENT-12,high,malware,escalated,True,2026-06-22T15:54:23,2026-06-22T17:06:29,72.1,Chair something event better woman develop weight situation but money then.,AST-ENT-12-10,ANL-019
+AL-A5196527,ENT-08,low,dos_attempt,open,False,2026-06-04T09:02:53,,,Health run adult employee ok certainly leave really group.,AST-ENT-08-01,ANL-018
+AL-5E942129,ENT-06,medium,policy_violation,open,False,2026-06-06T13:12:43,,,His window east yes current same behind program decade home.,AST-ENT-06-01,ANL-023
+AL-C546B8CC,ENT-07,medium,policy_violation,closed,False,2026-01-16T21:50:59,2026-01-16T23:07:17,76.3,From live seat nature energy huge its recently seven.,AST-ENT-07-16,ANL-009
+AL-C50E263E,ENT-02,medium,unauthorized_access,closed,False,2026-06-22T07:45:50,2026-06-22T09:48:26,122.6,Receive catch relationship large accept bad eight strong nature road month book explain feeling.,AST-ENT-02-10,ANL-024
+AL-8AFF945B,ENT-08,medium,data_exfiltration,escalated,True,2026-02-01T03:23:42,2026-02-01T05:08:12,104.5,Control painting official suggest door maybe improve national happen within.,AST-ENT-08-16,ANL-008
+AL-C2FAAB39,ENT-06,medium,phishing,open,False,2026-02-26T14:55:53,,,Sort what then spend offer reason whom none.,AST-ENT-06-08,ANL-012
+AL-E03C3F16,ENT-12,medium,insider_threat,open,False,2026-02-28T18:21:07,,,Surface alone woman media hair name institution war a feel watch.,AST-ENT-12-12,ANL-002
+AL-08C9CC4D,ENT-05,medium,phishing,open,False,2026-06-08T07:10:27,,,Challenge we last we cold deep cover amount bad raise dark state challenge organization floor road.,AST-ENT-05-CORE,ANL-015
+AL-A61C243A,ENT-04,high,insider_threat,escalated,True,2026-01-04T03:41:39,2026-01-04T04:08:27,26.8,Near both box simple statement happen state among rest national wrong bill stop seem.,AST-ENT-04-04,ANL-019
+AL-43611EB3,ENT-09,critical,dos_attempt,escalated,True,2026-01-09T09:04:01,2026-01-09T10:03:25,59.4,Source person when response official option event note most interview girl baby statement.,AST-ENT-09-CORE,ANL-002
+AL-8826A1CA,ENT-04,medium,data_exfiltration,open,False,2026-04-09T23:26:23,,,Matter note happy effort bill off reveal direction.,AST-ENT-04-01,ANL-011
+AL-2C6D4245,ENT-10,medium,insider_threat,closed,False,2026-05-24T00:27:38,2026-05-24T01:54:50,87.2,That treat church factor kid media run between positive.,AST-ENT-10-05,ANL-006
+AL-6B0482A7,ENT-04,medium,dos_attempt,escalated,True,2026-04-08T02:31:55,2026-04-08T03:07:43,35.8,"Checked logs, closing as non-issue.",AST-ENT-04-16,ANL-015
+AL-F1EEAF0A,ENT-10,medium,insider_threat,open,False,2026-05-11T23:21:47,,,Analysis ahead cup company those responsibility fund never condition again successful treat.,AST-ENT-10-06,ANL-006
+AL-251EDA04,ENT-09,low,policy_violation,closed,False,2026-01-28T06:10:29,2026-01-28T06:48:47,38.3,Majority discuss wall ahead scene store marriage ago condition painting force.,AST-ENT-09-05,ANL-024
+AL-E17998EC,ENT-08,medium,unauthorized_access,closed,False,2026-06-25T10:49:52,2026-06-25T12:21:46,91.9,Create physical share out cold follow first suddenly son even recently guy move goal century.,AST-ENT-08-17,ANL-006
+AL-B3371256,ENT-01,high,insider_threat,closed,False,2026-05-10T02:47:44,2026-05-10T04:09:20,81.6,Focus early various everything late seek now property from management foot.,AST-ENT-01-18,ANL-001
+AL-4E1D110C,ENT-09,high,policy_violation,escalated,True,2026-04-16T16:51:18,2026-04-16T17:49:00,57.7,Media hot manager wife pay good within fly agreement.,AST-ENT-09-19,ANL-003
+AL-4E7DE1D1,ENT-08,low,data_exfiltration,closed,False,2026-05-04T19:08:34,2026-05-04T19:51:16,42.7,Building movement yard four field area young positive half table future subject set face.,AST-ENT-08-11,ANL-002
+AL-E305181E,ENT-05,medium,data_exfiltration,closed,False,2026-01-29T23:24:16,2026-01-30T01:47:28,143.2,Region goal nothing center way student special.,AST-ENT-05-08,ANL-023
+AL-F1B45A69,ENT-07,critical,dos_attempt,open,False,2026-03-17T04:02:42,,,Age decade Mrs data model else low role center recognize adult on professional analysis.,AST-ENT-07-16,ANL-008
+AL-49F61D3F,ENT-10,medium,dos_attempt,escalated,True,2026-03-19T02:34:34,2026-03-19T03:09:46,35.2,Their surface why though decide bank likely professional ask meet seem.,AST-ENT-10-01,ANL-005
+AL-B30B9BD1,ENT-03,high,dos_attempt,escalated,True,2026-06-24T20:46:43,2026-06-24T21:34:25,47.7,Matter and case four listen lead paper middle foreign party class wrong school.,AST-ENT-03-05,ANL-009
+AL-1F1097A4,ENT-04,medium,insider_threat,escalated,True,2026-02-26T00:58:53,2026-02-26T02:44:29,105.6,Clearly well mission situation result cold camera.,AST-ENT-04-09,ANL-020
+AL-352F0BBA,ENT-10,medium,dos_attempt,closed,False,2026-01-05T16:48:43,2026-01-05T19:46:49,178.1,Voice onto maybe range every account central ask human space moment travel these least office.,AST-ENT-10-15,ANL-005
+AL-C1419564,ENT-11,medium,insider_threat,escalated,True,2026-01-02T14:50:24,2026-01-02T16:59:30,129.1,Remember carry prove less leave bar prevent require.,AST-ENT-11-12,ANL-004
+AL-9B93072E,ENT-12,high,dos_attempt,escalated,True,2026-05-07T20:29:27,2026-05-07T21:03:57,34.5,Crime century mind occur task measure campaign someone feeling pull nature themselves collection land break production.,AST-ENT-12-CORE,ANL-020
+AL-2192E8C3,ENT-04,low,dos_attempt,closed,False,2026-04-24T08:14:56,2026-04-24T08:54:44,39.8,Able teach activity animal hair turn condition whether along sort research pretty different eat trouble.,AST-ENT-04-19,ANL-008
+AL-CF0F4F42,ENT-01,critical,dos_attempt,closed,False,2026-05-07T13:23:48,2026-05-07T13:24:24,0.6,Meeting event strong woman during necessary himself two meet these tell.,AST-ENT-01-01,ANL-005
+AL-E8DD5089,ENT-09,high,malware,escalated,True,2026-04-22T23:27:16,2026-04-23T00:39:52,72.6,Least if price season rise field spend pattern real white push source because career.,AST-ENT-09-18,ANL-017
+AL-F8C57DC1,ENT-09,low,data_exfiltration,closed,False,2026-02-23T16:37:11,2026-02-23T17:09:53,32.7,Manage suffer term buy behavior test Congress collection meet evening through one on will.,AST-ENT-09-01,ANL-006
+AL-33582693,ENT-08,medium,insider_threat,open,False,2026-06-22T03:05:42,,,Someone rate why listen computer prove amount population.,AST-ENT-08-18,ANL-011
+AL-0945F40D,ENT-06,critical,phishing,escalated,True,2026-05-07T05:18:49,2026-05-07T06:00:07,41.3,Expect attorney cover magazine foreign process really charge.,AST-ENT-06-05,ANL-020
+AL-28D94270,ENT-04,low,dos_attempt,open,False,2026-03-28T12:05:59,,,Reviewed alert. No further action required.,AST-ENT-04-15,ANL-002
+AL-DF048F4F,ENT-10,medium,insider_threat,closed,False,2026-05-17T04:25:33,2026-05-17T05:14:27,48.9,Course staff personal space determine woman whose already manage region paper according.,AST-ENT-10-18,ANL-021
+AL-423D02BB,ENT-06,high,phishing,escalated,True,2026-01-08T08:55:25,2026-01-08T09:38:43,43.3,Door its address some once how during why.,AST-ENT-06-17,ANL-001
+AL-5D644BC8,ENT-12,medium,insider_threat,escalated,True,2026-05-20T16:50:08,2026-05-20T18:07:44,77.6,Minute within possible eye agency suggest former.,AST-ENT-12-01,ANL-011
+AL-6517F3BE,ENT-03,low,malware,escalated,True,2026-03-30T18:18:13,2026-03-30T19:10:01,51.8,Month police others particularly only girl suddenly pay sport relationship father pass be care.,AST-ENT-03-18,ANL-021
+AL-86AA37F6,ENT-06,medium,malware,closed,False,2026-06-23T21:41:44,2026-06-23T23:38:50,117.1,Worker trouble exactly develop office approach son long must.,AST-ENT-06-13,ANL-019
+AL-D23A16E9,ENT-02,high,malware,escalated,True,2026-03-16T01:17:11,2026-03-16T02:34:41,77.5,Under mind song risk bad own state nation fly bag produce fill.,AST-ENT-02-10,ANL-022
+AL-9D2C1C29,ENT-05,low,unauthorized_access,closed,False,2026-05-21T18:01:01,2026-05-21T18:39:37,38.6,Medical suddenly subject theory Congress best campaign else space several consumer quite.,AST-ENT-05-13,ANL-005
+AL-A6683A81,ENT-05,medium,dos_attempt,closed,False,2026-03-16T12:51:10,2026-03-16T15:19:46,148.6,Almost anything growth current happy less however type race drop.,AST-ENT-05-03,ANL-024
+AL-94756051,ENT-07,critical,insider_threat,escalated,True,2026-03-27T18:32:54,2026-03-27T19:49:42,76.8,At until worry term majority foot leader east if among.,AST-ENT-07-17,ANL-012
+AL-8696BFA7,ENT-03,high,malware,escalated,True,2026-03-13T20:34:20,2026-03-13T21:26:44,52.4,Dark Mr clearly take kind quite response major together knowledge argue car indeed nor.,AST-ENT-03-20,ANL-002
+AL-DE567BBE,ENT-03,low,dos_attempt,closed,False,2026-01-17T09:00:08,2026-01-17T09:12:08,12.0,Spend purpose south travel blood benefit chance court money spring environment however health image.,AST-ENT-03-15,ANL-017
+AL-3A59D8CD,ENT-11,critical,dos_attempt,open,False,2026-06-18T10:25:32,,,Cell star success color adult beyond family movement hospital back shake quality child.,AST-ENT-11-13,ANL-023
+AL-3A1A8B91,ENT-03,critical,phishing,closed,False,2026-05-24T21:09:57,2026-05-24T21:31:51,21.9,Health reduce tree serious soon stay seven quite other skin moment month gun true born stock.,AST-ENT-03-13,ANL-015
+AL-152D1BB3,ENT-05,high,phishing,closed,False,2026-03-30T13:09:32,2026-03-30T13:13:26,3.9,Final however major produce before name continue those.,AST-ENT-05-20,ANL-022
+AL-07921475,ENT-08,medium,insider_threat,escalated,True,2026-02-24T22:04:43,2026-02-24T23:52:13,107.5,Challenge large wish move building agent use shoulder way until choose wife.,AST-ENT-08-17,ANL-017
+AL-FF9D3EB9,ENT-05,medium,insider_threat,closed,False,2026-01-10T10:50:53,2026-01-10T12:21:11,90.3,Evidence case current this moment piece soon some.,AST-ENT-05-07,ANL-025
+AL-DA3FF45B,ENT-08,low,phishing,closed,False,2026-02-04T09:49:23,2026-02-04T10:35:53,46.5,Partner sing administration main according conference become prepare thought indicate southern significant realize deal policy mission.,AST-ENT-08-CORE,ANL-022
+AL-ABF54218,ENT-10,low,policy_violation,closed,False,2026-02-08T15:12:43,2026-02-08T16:11:43,59.0,Window sit participant teach big none medical cold.,AST-ENT-10-11,ANL-017
+AL-B7023402,ENT-12,medium,insider_threat,closed,False,2026-04-23T05:21:20,2026-04-23T07:33:32,132.2,Draw every once beautiful blood picture own American why this stage cover.,AST-ENT-12-19,ANL-022
+AL-612FD1FD,ENT-07,low,data_exfiltration,open,False,2026-02-05T00:31:24,,,Event address performance method deal go five center region.,AST-ENT-07-06,ANL-021
+AL-33B39CA0,ENT-01,medium,insider_threat,closed,False,2026-06-19T20:27:24,2026-06-19T23:16:18,168.9,Task she herself accept goal send table.,AST-ENT-01-06,ANL-006
+AL-0C7439C7,ENT-10,high,unauthorized_access,open,False,2026-05-30T03:49:05,,,Door meet mean we especially five network assume ahead plant trial affect never only big several.,AST-ENT-10-15,ANL-024
+AL-C90DB184,ENT-01,high,malware,escalated,True,2026-03-24T01:31:33,2026-03-24T02:07:03,35.5,Operation speak according south recently future choice whatever from behavior benefit suggest page southern.,AST-ENT-01-11,ANL-003
+AL-F6E2082A,ENT-04,high,dos_attempt,closed,False,2026-06-10T23:40:13,2026-06-11T01:17:01,96.8,Pattern kind describe to cause but role goal investment social easy popular easy.,AST-ENT-04-CORE,ANL-002
+AL-A721AE4C,ENT-06,low,insider_threat,closed,False,2026-01-25T15:20:30,2026-01-25T15:43:00,22.5,Cultural right cover large work avoid while same budget American evidence enough claim suffer accept letter.,AST-ENT-06-08,ANL-022
+AL-078EA1B7,ENT-05,low,policy_violation,open,False,2026-04-09T03:30:42,,,White above save network item one under sit travel.,AST-ENT-05-14,ANL-015
+AL-756CB37F,ENT-04,high,malware,escalated,True,2026-01-22T20:58:19,2026-01-22T22:31:25,93.1,"Checked logs, closing as non-issue.",AST-ENT-04-06,ANL-024
+AL-F1DF22C0,ENT-12,high,policy_violation,escalated,True,2026-06-28T17:18:12,2026-06-28T17:49:06,30.9,During color want record black year ahead upon force himself.,AST-ENT-12-06,ANL-010
+AL-3B5108CB,ENT-06,high,malware,escalated,True,2026-04-30T06:04:31,2026-04-30T06:37:31,33.0,Situation little other he become citizen before peace us young personal art popular red social call.,AST-ENT-06-11,ANL-001
+AL-D6A5413A,ENT-12,medium,data_exfiltration,open,False,2026-01-25T17:41:56,,,Book expect card inside former all program way where work.,AST-ENT-12-04,ANL-018
+AL-EE37C143,ENT-10,low,phishing,closed,False,2026-06-04T22:47:07,2026-06-04T23:36:55,49.8,Tell brother defense list second want hard weight own impact building occur American check he.,AST-ENT-10-07,ANL-018
+AL-886E5D7D,ENT-12,high,dos_attempt,closed,False,2026-05-17T18:31:34,2026-05-17T19:08:40,37.1,Baby drive behavior offer be experience upon space.,AST-ENT-12-11,ANL-015
+AL-116E1080,ENT-09,high,unauthorized_access,escalated,True,2026-04-24T10:25:45,2026-04-24T11:42:27,76.7,Continue goal before suffer walk we girl civil may rock.,AST-ENT-09-14,ANL-001
+AL-B0143BDD,ENT-09,low,policy_violation,closed,False,2026-01-02T06:44:50,2026-01-02T07:16:50,32.0,Generation group goal product easy possible or travel assume figure front after for.,AST-ENT-09-17,ANL-009
+AL-5F6C3E6B,ENT-12,high,malware,closed,False,2026-01-19T23:06:00,2026-01-19T23:56:48,50.8,Although wrong upon international pattern before anything imagine fill plan discuss from look.,AST-ENT-12-20,ANL-022
+AL-7359CF7C,ENT-01,medium,malware,open,False,2026-05-19T13:21:36,,,Like allow explain executive teacher author do enough social operation sound cup boy different chance enter.,AST-ENT-01-18,ANL-005
+AL-7337BF71,ENT-06,critical,dos_attempt,escalated,True,2026-06-28T19:49:15,2026-06-28T21:04:51,75.6,Chair coach two might if wide point these road start water describe paper likely loss.,AST-ENT-06-13,ANL-021
+AL-9D0D99FD,ENT-10,medium,unauthorized_access,closed,False,2026-03-15T14:28:15,2026-03-15T16:31:15,123.0,Bank occur agent scene within interest avoid economic clearly financial personal benefit.,AST-ENT-10-20,ANL-011
+AL-1B88A84B,ENT-10,medium,data_exfiltration,closed,False,2026-04-19T23:13:50,2026-04-20T00:20:08,66.3,Exist do process attorney arm million commercial teacher improve church book movie long.,AST-ENT-10-14,ANL-022
+AL-CD513BCE,ENT-02,medium,malware,open,False,2026-06-26T07:42:30,,,History professional star wonder manager already maybe opportunity thank them key moment.,AST-ENT-02-07,ANL-019
+AL-75C0D875,ENT-03,medium,insider_threat,open,False,2026-05-06T05:06:38,,,Any example our successful pull experience account blue care enough hand idea.,AST-ENT-03-04,ANL-015
+AL-D0E15F8E,ENT-01,medium,unauthorized_access,closed,False,2026-06-21T22:30:15,2026-06-22T00:45:57,135.7,Herself law street class great prove reduce raise.,AST-ENT-01-CORE,ANL-025
+AL-ED3DCA04,ENT-04,low,data_exfiltration,closed,False,2026-03-17T01:53:42,2026-03-17T02:28:30,34.8,Represent stock seven put majority officer environmental increase later.,AST-ENT-04-17,ANL-003
+AL-955B465E,ENT-11,critical,unauthorized_access,escalated,True,2026-03-03T06:07:52,2026-03-03T07:07:40,59.8,Concern research throughout mother kind answer play mission production process bill real.,AST-ENT-11-CORE,ANL-017
+AL-FD00A8A1,ENT-05,medium,malware,open,False,2026-05-04T02:11:32,,,No order executive range loss from everybody foot everybody prevent weight prepare.,AST-ENT-05-04,ANL-001
+AL-C43926B3,ENT-01,critical,unauthorized_access,open,False,2026-02-15T04:53:02,,,Participant commercial rock clear here writer policy news.,AST-ENT-01-12,ANL-012
+AL-32232D62,ENT-04,medium,dos_attempt,open,False,2026-05-20T08:33:05,,,Investigated and closed. False positive.,AST-ENT-04-12,ANL-014
+AL-2C9E5C84,ENT-07,high,insider_threat,escalated,True,2026-05-28T00:45:19,2026-05-28T02:40:13,114.9,Ten affect test power discuss herself with between firm term mother cost.,AST-ENT-07-07,ANL-007
+AL-CE05B7B0,ENT-09,medium,malware,closed,False,2026-03-10T13:32:52,2026-03-10T15:47:58,135.1,Grow benefit happen customer knowledge hold environmental outside bed.,AST-ENT-09-10,ANL-013
+AL-3BBA82A9,ENT-07,medium,policy_violation,closed,False,2026-01-16T07:57:25,2026-01-16T09:42:43,105.3,Art customer recent even let war at produce production.,AST-ENT-07-19,ANL-020
+AL-BEFE0C40,ENT-09,low,insider_threat,escalated,True,2026-02-08T01:43:14,2026-02-08T02:41:14,58.0,Medical onto rate two table resource life third rich hospital.,AST-ENT-09-CORE,ANL-001
+AL-374A5F66,ENT-03,high,data_exfiltration,closed,False,2026-05-08T03:11:00,2026-05-08T04:14:00,63.0,Body scientist dream anything toward difficult do beyond form.,AST-ENT-03-14,ANL-015
+AL-3FBE3961,ENT-02,low,unauthorized_access,open,False,2026-03-08T02:05:38,,,Pm per question return process stuff pick tough position final.,AST-ENT-02-17,ANL-003
+AL-29349BC3,ENT-12,critical,insider_threat,escalated,True,2026-04-03T07:13:07,2026-04-03T08:04:01,50.9,Federal into consider speech board just style class government its grow that.,AST-ENT-12-10,ANL-012
+AL-33512536,ENT-07,critical,phishing,open,False,2026-06-24T09:33:43,,,Sign wall state try memory number occur.,AST-ENT-07-20,ANL-023
+AL-A1F95F1A,ENT-06,high,malware,escalated,True,2026-01-16T03:13:14,2026-01-16T03:55:50,42.6,Far plant fear thought whole term possible whatever action themselves center among of hour natural.,AST-ENT-06-01,ANL-023
+AL-FFCC74EC,ENT-08,medium,malware,escalated,True,2026-06-24T11:52:54,2026-06-24T14:10:42,137.8,Fish him high nation production little could his under style child young prove care author administration.,AST-ENT-08-CORE,ANL-004
+AL-AEE6BF37,ENT-08,high,dos_attempt,closed,False,2026-05-28T10:41:14,2026-05-28T11:35:20,54.1,Cause cover rest or majority as music film move strong.,AST-ENT-08-10,ANL-017
+AL-BA65C460,ENT-10,medium,insider_threat,open,False,2026-02-16T12:26:20,,,Attack and loss finally laugh full help strong street car catch PM.,AST-ENT-10-18,ANL-009
+AL-2A0BA4E0,ENT-09,low,dos_attempt,open,False,2026-06-20T02:58:57,,,Store process law western order accept wide prevent week foot rule same whatever notice.,AST-ENT-09-13,ANL-016
+AL-74513219,ENT-04,low,data_exfiltration,closed,False,2026-06-08T21:54:55,2026-06-08T22:19:25,24.5,Investigated and closed. False positive.,AST-ENT-04-03,ANL-015
+AL-2FD6A7DC,ENT-10,critical,data_exfiltration,open,False,2026-05-05T14:46:46,,,Law foreign court bill organization attack smile.,AST-ENT-10-19,ANL-002
+AL-804FD56E,ENT-01,medium,phishing,closed,False,2026-06-25T16:51:10,2026-06-25T19:29:40,158.5,Matter management ball always it focus economy before while structure offer.,AST-ENT-01-13,ANL-001
+AL-B8A66084,ENT-05,low,malware,closed,False,2026-06-21T14:36:15,2026-06-21T14:56:33,20.3,Traditional every land chance pass pay positive material third look.,AST-ENT-05-CORE,ANL-015
+AL-A9160F73,ENT-04,low,dos_attempt,escalated,True,2026-04-18T02:51:39,2026-04-18T03:45:51,54.2,Reviewed alert. No further action required.,AST-ENT-04-16,ANL-014
+AL-10B107ED,ENT-10,medium,data_exfiltration,open,False,2026-02-18T12:36:01,,,Field magazine social central operation any thus threat democratic standard major business.,AST-ENT-10-08,ANL-003
+AL-DD2C1CD9,ENT-06,medium,dos_attempt,closed,False,2026-04-21T05:26:49,2026-04-21T08:02:19,155.5,View city rock seat near business loss federal growth appear project.,AST-ENT-06-16,ANL-010
+AL-EB5B24B3,ENT-05,high,dos_attempt,closed,False,2026-01-23T21:16:30,2026-01-23T21:17:36,1.1,Respond box service develop game stop who factor miss reduce animal clearly.,AST-ENT-05-05,ANL-013
+AL-D3FB5E5D,ENT-09,medium,dos_attempt,open,False,2026-02-23T12:12:18,,,Bank citizen might wide store shake suggest rate society floor long same end reach step.,AST-ENT-09-14,ANL-018
+AL-61024A08,ENT-08,medium,malware,closed,False,2026-01-09T12:21:48,2026-01-09T13:39:48,78.0,Wish former relate listen face want wonder off chair north trade kind ready rule too.,AST-ENT-08-CORE,ANL-006
+AL-6790F8BC,ENT-06,low,malware,open,False,2026-01-17T07:39:07,,,Road product wait red bag cold billion as these.,AST-ENT-06-03,ANL-003
+AL-0A8354BB,ENT-10,low,insider_threat,open,False,2026-02-20T01:02:17,,,Size show show news to table them page bit anyone watch sometimes.,AST-ENT-10-CORE,ANL-022
+AL-F1FFB53E,ENT-11,low,dos_attempt,closed,False,2026-04-17T13:35:37,2026-04-17T14:20:25,44.8,Training in seven building hard sense mean single improve close.,AST-ENT-11-13,ANL-022
+AL-CE8AB6FE,ENT-04,medium,dos_attempt,escalated,True,2026-05-14T17:10:18,2026-05-14T18:46:12,95.9,Investigated and closed. False positive.,AST-ENT-04-11,ANL-005
+AL-35004CA5,ENT-07,low,policy_violation,closed,False,2026-06-08T10:54:14,2026-06-08T11:38:32,44.3,Street two look listen along career choice leave tend time leg sport.,AST-ENT-07-16,ANL-012
+AL-B448F9CD,ENT-12,high,data_exfiltration,open,False,2026-03-27T15:44:52,,,Local camera act message choice call her save apply rise window religious eat.,AST-ENT-12-CORE,ANL-004
+AL-7A604242,ENT-05,medium,insider_threat,closed,False,2026-05-28T21:26:53,2026-05-28T22:52:29,85.6,Go skin result answer just information coach increase.,AST-ENT-05-19,ANL-008
+AL-2B98410F,ENT-11,high,dos_attempt,open,False,2026-01-13T00:59:10,,,Debate must voice building degree ground community I first home learn at spring practice hard attack.,AST-ENT-11-01,ANL-009
+AL-453646AB,ENT-12,low,insider_threat,escalated,True,2026-01-23T11:50:05,2026-01-23T12:46:41,56.6,Painting information child yeah its ago page back by body nature at policy guy four.,AST-ENT-12-20,ANL-003
+AL-CF7B72B8,ENT-10,critical,malware,escalated,True,2026-04-15T20:15:17,2026-04-15T20:54:47,39.5,Serious reveal left social fine could show recently decide last next hear officer campaign wall.,AST-ENT-10-05,ANL-022
+AL-F531B786,ENT-11,high,dos_attempt,escalated,True,2026-04-02T11:54:21,2026-04-02T12:35:15,40.9,Dream that event physical factor trouble recently.,AST-ENT-11-07,ANL-017
+AL-1BA0631D,ENT-02,low,policy_violation,closed,False,2026-02-16T08:54:52,2026-02-16T09:47:40,52.8,Also from short capital heavy class story side speak close join improve put down know.,AST-ENT-02-11,ANL-016
+AL-E2C39948,ENT-12,high,insider_threat,open,False,2026-04-04T21:08:33,,,Whatever own democratic grow campaign performance avoid effort high tough.,AST-ENT-12-05,ANL-004
+AL-AD104497,ENT-12,high,dos_attempt,open,False,2026-04-25T08:17:50,,,Method produce about point walk focus plant them wide save question do machine school.,AST-ENT-12-03,ANL-020
+AL-A081E598,ENT-02,high,phishing,escalated,True,2026-03-20T22:05:32,2026-03-20T23:41:20,95.8,Almost half capital travel force indeed customer skill theory hand maybe evening clearly.,AST-ENT-02-16,ANL-001
+AL-853C55F7,ENT-03,high,dos_attempt,escalated,True,2026-03-29T18:04:16,2026-03-29T19:01:10,56.9,Cause national contain threat wrong whatever model stuff avoid.,AST-ENT-03-03,ANL-020
+AL-D4C375B2,ENT-05,critical,malware,open,False,2026-05-21T04:44:08,,,Power someone both receive around wall city indeed opportunity soon question consider here.,AST-ENT-05-CORE,ANL-023
+AL-DB1AC52D,ENT-06,low,malware,open,False,2026-03-08T19:18:54,,,Consumer face PM pay evening performance could affect.,AST-ENT-06-06,ANL-011
+AL-270F3097,ENT-06,low,data_exfiltration,open,False,2026-01-05T15:25:47,,,Son include good movie red enjoy expert human see garden.,AST-ENT-06-01,ANL-001
+AL-30865FBC,ENT-10,medium,policy_violation,closed,False,2026-01-06T02:52:09,2026-01-06T03:37:45,45.6,Win information though red them return finish general still too particular chair identify popular thought.,AST-ENT-10-03,ANL-013
+AL-35ADC977,ENT-05,high,dos_attempt,closed,False,2026-02-10T02:55:02,2026-02-10T02:58:38,3.6,Score night down six sometimes explain professor unit hold what.,AST-ENT-05-20,ANL-006
+AL-CEEBC8A3,ENT-03,medium,malware,closed,False,2026-03-05T18:48:42,2026-03-05T20:55:36,126.9,However similar ahead event yeah make green wait it quickly produce beat peace something require bank.,AST-ENT-03-12,ANL-012
+AL-01979CB7,ENT-03,medium,policy_violation,closed,False,2026-02-11T20:37:27,2026-02-11T21:59:15,81.8,Conference career political role white hear through large true help bag who themselves.,AST-ENT-03-CORE,ANL-022
+AL-A0D62B67,ENT-12,high,malware,open,False,2026-03-26T09:58:29,,,Understand avoid national garden rise writer dark result analysis court nearly education theory table.,AST-ENT-12-19,ANL-020
+AL-C206399B,ENT-01,low,unauthorized_access,closed,False,2026-04-27T07:17:02,2026-04-27T07:32:38,15.6,Behind probably great in tell approach president position art rock.,AST-ENT-01-10,ANL-002
+AL-9B511390,ENT-05,critical,data_exfiltration,open,False,2026-04-18T10:37:07,,,Goal heart stock small official serve difficult later son almost after end.,AST-ENT-05-07,ANL-008
+AL-5CF8280D,ENT-05,high,dos_attempt,escalated,True,2026-05-04T03:13:37,2026-05-04T05:12:55,119.3,Positive question especially important after sister should across treatment positive.,AST-ENT-05-12,ANL-013
+AL-6C9AFDDD,ENT-11,low,malware,escalated,True,2026-05-30T12:41:35,2026-05-30T13:38:17,56.7,Charge daughter also type our watch school forget everything poor.,AST-ENT-11-11,ANL-018
+AL-7C78E6F8,ENT-03,medium,insider_threat,open,False,2026-01-30T07:03:48,,,Art point value tree process administration mother in admit reveal movie expert.,AST-ENT-03-CORE,ANL-011
+AL-0A4F51D1,ENT-07,low,policy_violation,open,False,2026-06-06T09:34:30,,,Discussion fact cover brother let someone scene debate past increase animal glass south defense political real.,AST-ENT-07-05,ANL-001
+AL-84F4608D,ENT-05,medium,unauthorized_access,closed,False,2026-04-28T11:21:43,2026-04-28T12:19:55,58.2,Only from follow wish run join police maintain fish religious no threat party.,AST-ENT-05-18,ANL-016
+AL-2707A8D1,ENT-04,low,insider_threat,escalated,True,2026-01-16T18:31:33,2026-01-16T19:13:39,42.1,"Checked logs, closing as non-issue.",AST-ENT-04-07,ANL-019
+AL-6F253398,ENT-02,low,dos_attempt,closed,False,2026-01-03T16:51:56,2026-01-03T17:24:38,32.7,Yourself rest moment shoulder statement available win politics last quite general there sister.,AST-ENT-02-09,ANL-013
+AL-8A7FA5B0,ENT-10,critical,policy_violation,open,False,2026-05-01T14:04:52,,,Indeed conference pay it his probably recognize believe recognize.,AST-ENT-10-CORE,ANL-004
+AL-DBB0D69B,ENT-02,medium,malware,closed,False,2026-04-10T22:11:32,2026-04-11T00:20:08,128.6,Four collection member box member town glass road standard spring.,AST-ENT-02-14,ANL-007
+AL-42D1D919,ENT-10,low,malware,escalated,True,2026-02-28T14:41:02,2026-02-28T15:40:14,59.2,Hear million condition Republican moment low what listen ok point so power debate thus later.,AST-ENT-10-11,ANL-025
+AL-2C41FB22,ENT-08,critical,malware,escalated,True,2026-03-20T08:09:54,2026-03-20T09:06:42,56.8,Entire record toward off middle vote make job such sit size music about.,AST-ENT-08-CORE,ANL-020
+AL-A9E37577,ENT-04,low,unauthorized_access,open,False,2026-01-13T06:04:11,,,Plan coach cause deal deal arrive go exactly much food region eye environment teach world quickly.,AST-ENT-04-CORE,ANL-002
+AL-F854FBDB,ENT-07,medium,policy_violation,closed,False,2026-06-14T03:56:21,2026-06-14T05:10:27,74.1,Strong federal right firm movie decade rate son.,AST-ENT-07-09,ANL-018
+AL-1872FFE8,ENT-07,low,malware,closed,False,2026-01-06T14:54:29,2026-01-06T15:46:17,51.8,Million how same newspaper might piece any fact huge fight.,AST-ENT-07-15,ANL-012
+AL-4D4F6089,ENT-06,medium,policy_violation,closed,False,2026-04-05T18:27:07,2026-04-05T21:07:25,160.3,Glass third professional former family wear peace little.,AST-ENT-06-03,ANL-015
+AL-C58B599C,ENT-09,high,data_exfiltration,escalated,True,2026-01-02T15:14:00,2026-01-02T15:55:06,41.1,Beat show challenge instead bring total school knowledge machine after.,AST-ENT-09-11,ANL-020
+AL-E09F49E6,ENT-03,critical,policy_violation,escalated,True,2026-01-16T09:13:07,2026-01-16T09:44:19,31.2,Something picture control price how scene third last involve above.,AST-ENT-03-CORE,ANL-020
+AL-9F26D5DC,ENT-03,medium,insider_threat,escalated,True,2026-02-04T02:47:49,2026-02-04T04:37:43,109.9,Past view threat drive attack order land public the each analysis keep music.,AST-ENT-03-18,ANL-022
+AL-EAA21C3E,ENT-03,low,phishing,open,False,2026-01-27T08:14:25,,,Machine daughter parent fine responsibility safe team wish candidate have no five letter.,AST-ENT-03-18,ANL-019
+AL-047B8E1E,ENT-05,medium,insider_threat,closed,False,2026-03-24T22:53:56,2026-03-25T01:49:44,175.8,Staff true argue you detail suffer something great stuff suddenly compare or south recently trial.,AST-ENT-05-13,ANL-017
+AL-14D33D51,ENT-12,low,unauthorized_access,escalated,True,2026-06-27T08:32:14,2026-06-27T09:07:32,35.3,Toward fall move cause make fine treat you paper member reach production and already center.,AST-ENT-12-17,ANL-007
+AL-803F37D0,ENT-02,medium,data_exfiltration,open,False,2026-05-01T21:41:02,,,Bill eight community check service away week physical less nor.,AST-ENT-02-07,ANL-018
+AL-208C6675,ENT-09,low,insider_threat,open,False,2026-05-31T11:09:28,,,Television argue mouth record both nation little east everyone six certain.,AST-ENT-09-12,ANL-002
+AL-6E8BBE4C,ENT-04,high,phishing,open,False,2026-01-27T07:08:39,,,Investigated and closed. False positive.,AST-ENT-04-13,ANL-013
+AL-2C226819,ENT-03,low,unauthorized_access,closed,False,2026-02-22T23:17:58,2026-02-23T00:09:34,51.6,Myself so growth time Mr point be shoulder price great positive and worker.,AST-ENT-03-CORE,ANL-015
+AL-0BAA81A2,ENT-08,high,insider_threat,escalated,True,2026-02-27T00:09:20,2026-02-27T01:44:38,95.3,Scene again country against soon strong mind from official pretty skin main program.,AST-ENT-08-18,ANL-025
+AL-5BD630DB,ENT-10,medium,data_exfiltration,closed,False,2026-04-09T00:02:19,2026-04-09T01:52:25,110.1,Story case pressure those full decision lay.,AST-ENT-10-12,ANL-018
+AL-A34E8402,ENT-03,high,malware,escalated,True,2026-06-03T00:54:22,2026-06-03T02:31:28,97.1,Car cost large never impact ago government behavior.,AST-ENT-03-17,ANL-022
+AL-3D1832F7,ENT-06,low,malware,closed,False,2026-06-23T15:03:45,2026-06-23T15:16:03,12.3,Mouth phone decision picture defense rate structure day stock these scientist itself stage authority rather.,AST-ENT-06-15,ANL-004
+AL-ED48E51B,ENT-05,high,data_exfiltration,closed,False,2026-05-26T00:35:14,2026-05-26T00:38:56,3.7,Avoid rich toward popular lead with enough anyone spend them system growth quality international break.,AST-ENT-05-15,ANL-013
+AL-2AD81AAC,ENT-05,high,policy_violation,escalated,True,2026-04-16T22:48:57,2026-04-17T00:25:45,96.8,Can himself open cold statement fear fact road others full thousand.,AST-ENT-05-CORE,ANL-015
+AL-6828BF87,ENT-01,low,data_exfiltration,closed,False,2026-06-04T13:44:39,2026-06-04T14:08:51,24.2,Large admit family identify during professional hard network gas you nearly goal law fill.,AST-ENT-01-20,ANL-003
+AL-A1EA7B4D,ENT-12,low,unauthorized_access,open,False,2026-03-22T09:34:01,,,Day approach truth write soon recent develop their miss contain.,AST-ENT-12-09,ANL-025
+AL-7D293ABF,ENT-02,medium,malware,escalated,True,2026-01-30T11:05:56,2026-01-30T13:00:20,114.4,Order later develop past road training probably feeling poor all your suggest international blue Republican.,AST-ENT-02-08,ANL-018
+AL-52089163,ENT-06,medium,malware,open,False,2026-05-30T14:01:46,,,List act instead care throw piece move firm main.,AST-ENT-06-04,ANL-006
+AL-41BD69A4,ENT-03,medium,malware,open,False,2026-04-22T08:14:10,,,Few century produce determine feel article we they treatment personal.,AST-ENT-03-13,ANL-011
+AL-F886E850,ENT-02,high,insider_threat,escalated,True,2026-06-26T15:10:22,2026-06-26T16:45:04,94.7,Material hit no energy employee land you experience trouble.,AST-ENT-02-05,ANL-018
+AL-73E59DD7,ENT-04,high,policy_violation,escalated,True,2026-04-19T08:52:20,2026-04-19T10:46:26,114.1,Investigated and closed. False positive.,AST-ENT-04-07,ANL-023
+AL-21EB8A07,ENT-09,low,data_exfiltration,closed,False,2026-02-06T08:11:36,2026-02-06T08:35:06,23.5,One cut notice street anything account piece require woman support say other never fact.,AST-ENT-09-11,ANL-006
+AL-13DED12B,ENT-08,low,phishing,open,False,2026-05-13T12:55:11,,,Expect win stuff realize project child draw American first call employee continue none alone first.,AST-ENT-08-04,ANL-009
+AL-C37F812A,ENT-08,critical,insider_threat,escalated,True,2026-05-18T10:02:06,2026-05-18T10:33:36,31.5,Per son war speak wait assume throughout leader bag today eye what body every.,AST-ENT-08-03,ANL-017
+AL-194D7B7A,ENT-05,medium,unauthorized_access,closed,False,2026-03-25T14:36:59,2026-03-25T15:23:05,46.1,Dinner article hit mission whole reach view of dog federal house take alone number might number.,AST-ENT-05-CORE,ANL-008
+AL-8A77766C,ENT-12,critical,data_exfiltration,escalated,True,2026-05-01T23:08:02,2026-05-01T23:30:44,22.7,Industry leader keep government light expert weight minute responsibility under director player beautiful figure side suddenly.,AST-ENT-12-18,ANL-009
+AL-024F1CDA,ENT-10,critical,malware,escalated,True,2026-01-31T14:55:41,2026-01-31T16:02:05,66.4,Still group concern should recent across leg view know develop after exactly.,AST-ENT-10-02,ANL-012
+AL-84A0974A,ENT-07,low,malware,escalated,True,2026-04-08T04:23:37,2026-04-08T05:07:37,44.0,Century the state visit quality car right least require mission about usually.,AST-ENT-07-14,ANL-005
+AL-6CD74672,ENT-12,high,malware,closed,False,2026-02-10T14:14:53,2026-02-10T15:31:59,77.1,Professional opportunity blood across system firm staff father despite quite challenge exist section support still.,AST-ENT-12-17,ANL-016
+AL-E5BC2DB8,ENT-04,low,phishing,open,False,2026-04-01T15:30:58,,,Investigated and closed. False positive.,AST-ENT-04-CORE,ANL-017
+AL-83219957,ENT-01,high,policy_violation,open,False,2026-06-02T06:02:01,,,Understand door class son computer include conference under site.,AST-ENT-01-18,ANL-023
+AL-42F101A4,ENT-07,high,unauthorized_access,escalated,True,2026-03-28T06:39:16,2026-03-28T07:53:58,74.7,Feel some quickly truth view response trip wrong old particularly member summer.,AST-ENT-07-05,ANL-023
+AL-E5809386,ENT-02,low,data_exfiltration,open,False,2026-02-13T19:26:26,,,Guess occur level work candidate this assume.,AST-ENT-02-18,ANL-003
+AL-000D8709,ENT-08,high,dos_attempt,escalated,True,2026-06-26T22:37:28,2026-06-27T00:17:40,100.2,Do raise hope enjoy most itself eye something high firm morning what best most government.,AST-ENT-08-06,ANL-013
+AL-C291A0D3,ENT-02,low,policy_violation,closed,False,2026-03-01T07:10:30,2026-03-01T07:51:00,40.5,Table prepare shoulder result Democrat later direction fund.,AST-ENT-02-07,ANL-007
+AL-4AC2B4DD,ENT-06,medium,policy_violation,closed,False,2026-06-16T23:42:57,2026-06-17T00:33:57,51.0,Hair first into above east develop science job style care run there leg grow figure.,AST-ENT-06-CORE,ANL-013
+AL-117A93EB,ENT-07,medium,policy_violation,closed,False,2026-02-24T21:22:11,2026-02-24T23:04:29,102.3,Body role pick would low read value worry.,AST-ENT-07-09,ANL-011
+AL-065B31A9,ENT-09,high,unauthorized_access,escalated,True,2026-06-02T13:26:29,2026-06-02T15:00:29,94.0,Measure attention standard shake more respond who commercial senior above.,AST-ENT-09-12,ANL-022
+AL-4B34FBE1,ENT-05,low,insider_threat,closed,False,2026-06-09T09:40:56,2026-06-09T10:05:56,25.0,Service test start middle city find medical career surface these ahead cover strategy student.,AST-ENT-05-19,ANL-013
+AL-3438BABD,ENT-02,high,policy_violation,escalated,True,2026-03-06T17:19:46,2026-03-06T17:50:16,30.5,Next property government however score job least back fine investment identify policy face if.,AST-ENT-02-14,ANL-016
+AL-D5AAADBA,ENT-10,medium,phishing,open,False,2026-02-12T05:19:52,,,Grow bar successful mention poor skill unit better.,AST-ENT-10-06,ANL-023
+AL-A0AFA351,ENT-04,medium,unauthorized_access,open,False,2026-04-07T17:01:32,,,"Checked logs, closing as non-issue.",AST-ENT-04-16,ANL-022
+AL-5E3D3982,ENT-10,critical,unauthorized_access,closed,False,2026-06-12T04:16:59,2026-06-12T05:37:29,80.5,It big argue appear sure I pay in ten skin perhaps law less into per big.,AST-ENT-10-16,ANL-004
+AL-AA22798C,ENT-10,medium,malware,closed,False,2026-05-17T00:26:20,2026-05-17T01:44:26,78.1,Religious occur someone religious night buy nice court peace.,AST-ENT-10-18,ANL-006
+AL-8CFA1885,ENT-01,critical,data_exfiltration,open,False,2026-05-24T00:38:21,,,Mrs same son today major event magazine home protect something right subject try.,AST-ENT-01-08,ANL-006
+AL-02C20B78,ENT-05,high,policy_violation,open,False,2026-01-16T08:29:41,,,Against only true similar suffer team whether health.,AST-ENT-05-CORE,ANL-007
+AL-A275DC49,ENT-04,high,dos_attempt,closed,False,2026-05-11T22:56:13,2026-05-12T00:17:19,81.1,"Checked logs, closing as non-issue.",AST-ENT-04-14,ANL-011
+AL-9F1FCB3F,ENT-03,medium,malware,closed,False,2026-01-31T00:07:44,2026-01-31T02:42:50,155.1,Last cell anything war ten industry while total spend value return.,AST-ENT-03-09,ANL-023
+AL-F0D0E088,ENT-03,medium,data_exfiltration,closed,False,2026-06-19T17:40:48,2026-06-19T19:57:30,136.7,Pull cause field education child institution help last our old move type thank.,AST-ENT-03-04,ANL-003
+AL-B7502DFD,ENT-08,medium,phishing,open,False,2026-04-17T21:29:43,,,Particular condition man century shoulder despite poor tree resource billion.,AST-ENT-08-03,ANL-015
+AL-00FDE1B5,ENT-04,low,phishing,escalated,True,2026-01-15T07:42:11,2026-01-15T08:08:05,25.9,Political quality attention none particular clearly goal defense security.,AST-ENT-04-CORE,ANL-022
+AL-568B7CBA,ENT-09,medium,insider_threat,closed,False,2026-06-02T15:24:12,2026-06-02T16:18:18,54.1,Color note add moment significant up still management difference data watch spend.,AST-ENT-09-01,ANL-003
+AL-5BB68F1A,ENT-07,low,dos_attempt,open,False,2026-05-30T01:08:53,,,About she activity marriage material space part management describe process.,AST-ENT-07-06,ANL-001
+AL-9CEF6AB8,ENT-01,critical,dos_attempt,open,False,2026-05-21T05:11:34,,,Require human public health tonight later easy ask again network.,AST-ENT-01-06,ANL-004
+AL-2C72B987,ENT-10,medium,insider_threat,open,False,2026-06-09T03:13:04,,,Growth national free push economic seat shoulder suddenly.,AST-ENT-10-CORE,ANL-019
+AL-2A9B3B6D,ENT-09,high,phishing,escalated,True,2026-04-27T00:25:26,2026-04-27T02:02:50,97.4,Require remain save eight believe arrive four dog traditional you.,AST-ENT-09-16,ANL-001
+AL-16F1B50B,ENT-09,critical,policy_violation,escalated,True,2026-03-12T15:44:11,2026-03-12T16:48:53,64.7,Everything require old event smile popular hundred live owner identify machine everything should blue.,AST-ENT-09-20,ANL-006
+AL-4EEF9DE6,ENT-06,low,malware,closed,False,2026-03-01T01:44:40,2026-03-01T02:05:28,20.8,No nothing huge real art sport live picture last free guess.,AST-ENT-06-05,ANL-023
+AL-7D5F039F,ENT-04,medium,phishing,closed,False,2026-05-07T03:10:20,2026-05-07T03:44:14,33.9,Six least buy tax kid a when dark read car practice city usually ever pressure economy.,AST-ENT-04-17,ANL-018
+AL-9459E25D,ENT-09,high,dos_attempt,open,False,2026-05-08T13:18:08,,,Remember special accept mean herself within provide car throughout American conference college manage fund life bed.,AST-ENT-09-20,ANL-017
+AL-8FB53605,ENT-09,low,data_exfiltration,open,False,2026-04-02T14:08:06,,,Explain management candidate task outside yet executive quality industry impact certainly.,AST-ENT-09-CORE,ANL-008
+AL-27626A61,ENT-09,low,dos_attempt,open,False,2026-03-13T00:50:18,,,Probably be century husband opportunity big understand within ask window full organization wrong but study.,AST-ENT-09-CORE,ANL-017
+AL-CD8671F0,ENT-03,low,malware,closed,False,2026-03-24T03:01:42,2026-03-24T04:00:06,58.4,Fear owner up friend lawyer political modern.,AST-ENT-03-12,ANL-019
+AL-F5384D4C,ENT-04,low,malware,escalated,True,2026-01-12T03:18:28,2026-01-12T04:00:22,41.9,Investigated and closed. False positive.,AST-ENT-04-06,ANL-005
+AL-854A44BC,ENT-07,low,insider_threat,open,False,2026-02-20T17:01:58,,,Interview summer employee offer perhaps until pass market role marriage space.,AST-ENT-07-17,ANL-008
+AL-8D403D50,ENT-02,low,malware,open,False,2026-02-05T05:48:02,,,Main project animal house out account feeling deep case eight foreign account section compare herself region.,AST-ENT-02-16,ANL-016
+AL-D987D2CA,ENT-03,critical,dos_attempt,open,False,2026-03-27T20:50:20,,,Material pressure range either start whom politics make collection some.,AST-ENT-03-12,ANL-003
+AL-B073E506,ENT-01,low,malware,closed,False,2026-01-15T15:19:08,2026-01-15T15:31:38,12.5,Claim kind relationship night born war real chance along hard need.,AST-ENT-01-01,ANL-025
+AL-032B6920,ENT-07,medium,dos_attempt,closed,False,2026-03-01T10:35:59,2026-03-01T11:50:41,74.7,Executive give offer meet if research blood news audience.,AST-ENT-07-17,ANL-017
+AL-6C79DA70,ENT-12,medium,dos_attempt,escalated,True,2026-02-19T03:34:57,2026-02-19T05:19:33,104.6,Own than evidence recognize spring happy peace.,AST-ENT-12-01,ANL-016
+AL-C90FFE05,ENT-05,high,policy_violation,closed,False,2026-03-24T19:01:31,2026-03-24T20:41:19,99.8,Should office north within prove full mission red believe product eat generation put his stuff.,AST-ENT-05-06,ANL-022
+AL-B3D31E7D,ENT-06,medium,malware,open,False,2026-04-22T23:23:29,,,Gun choice prepare effect talk interest hand every quite sense including six lot.,AST-ENT-06-12,ANL-016
+AL-C09F1F9E,ENT-12,critical,unauthorized_access,open,False,2026-04-23T02:52:04,,,Yourself reflect fear by foot research television Mr if red hour stage situation morning.,AST-ENT-12-CORE,ANL-009
+AL-3CBC5914,ENT-07,low,unauthorized_access,open,False,2026-03-18T19:36:32,,,Magazine join far recent couple cost girl.,AST-ENT-07-05,ANL-024
+AL-7683251F,ENT-02,medium,policy_violation,escalated,True,2026-04-24T05:42:33,2026-04-24T07:21:45,99.2,Store range wonder long consider care respond want already.,AST-ENT-02-09,ANL-001
+AL-7EC153EE,ENT-02,medium,malware,open,False,2026-02-22T20:45:33,,,Party poor ago upon stop environment Congress reflect finally fund accept thank not husband center plan.,AST-ENT-02-20,ANL-014
+AL-7B3279A9,ENT-07,critical,phishing,escalated,True,2026-04-16T15:48:39,2026-04-16T16:31:27,42.8,Nice maintain present cultural pattern save east author since food under become public interest.,AST-ENT-07-06,ANL-002
+AL-4F2DDCF0,ENT-08,low,data_exfiltration,closed,False,2026-01-15T13:45:00,2026-01-15T14:40:12,55.2,Range much often party tough movement action law.,AST-ENT-08-15,ANL-009
+AL-9BF1883C,ENT-04,medium,data_exfiltration,open,False,2026-05-23T13:37:07,,,Investigated and closed. False positive.,AST-ENT-04-CORE,ANL-017
+AL-0AAC0A54,ENT-03,medium,data_exfiltration,closed,False,2026-03-31T20:23:33,2026-03-31T22:01:03,97.5,Share include successful discuss religious across media.,AST-ENT-03-07,ANL-020
+AL-C3097A61,ENT-01,medium,malware,closed,False,2026-03-21T19:52:31,2026-03-21T22:03:31,131.0,Region particularly would pressure account stage federal professional voice care break blood network evening painting.,AST-ENT-01-04,ANL-013
+AL-C664086B,ENT-12,low,phishing,open,False,2026-04-02T00:35:46,,,Cold kid measure same set standard soldier after high take serve TV.,AST-ENT-12-13,ANL-016
+AL-BE8B4114,ENT-03,low,dos_attempt,closed,False,2026-01-22T08:17:38,2026-01-22T08:34:14,16.6,Order medical meeting majority none little admit former body indicate film.,AST-ENT-03-08,ANL-011
+AL-8C4DB67A,ENT-09,medium,data_exfiltration,open,False,2026-03-03T05:56:57,,,Decision back word else pull its adult house actually.,AST-ENT-09-17,ANL-013
+AL-7DBF41EE,ENT-06,high,malware,escalated,True,2026-05-06T10:31:01,2026-05-06T11:03:55,32.9,Approach side model you billion peace base use hope director scene kitchen call money color.,AST-ENT-06-11,ANL-002
+AL-BAE18853,ENT-03,high,insider_threat,escalated,True,2026-05-01T00:40:21,2026-05-01T02:09:21,89.0,New another general poor high modern recent impact feel contain Mrs drive different.,AST-ENT-03-14,ANL-004
+AL-AF7AFB34,ENT-10,low,data_exfiltration,closed,False,2026-03-04T17:35:00,2026-03-04T18:22:12,47.2,Weight which new among spend which per president cold art two event economy quite yourself.,AST-ENT-10-04,ANL-016
+AL-3078B60C,ENT-12,high,unauthorized_access,escalated,True,2026-06-16T13:43:42,2026-06-16T14:06:54,23.2,Television receive accept language fire always offer present because.,AST-ENT-12-16,ANL-012
+AL-3D982DA6,ENT-03,low,insider_threat,escalated,True,2026-05-08T06:53:36,2026-05-08T07:51:12,57.6,Simply herself move grow end mention market better wonder light style trial.,AST-ENT-03-15,ANL-019
+AL-8B680BE1,ENT-08,high,insider_threat,escalated,True,2026-04-16T02:02:41,2026-04-16T03:44:05,101.4,Option student evidence role save east force often through option.,AST-ENT-08-CORE,ANL-022
+AL-6DAB768D,ENT-12,medium,dos_attempt,closed,False,2026-05-11T06:28:55,2026-05-11T09:25:01,176.1,Large collection us shake tough company happen card government anything many color wide full quickly story.,AST-ENT-12-15,ANL-005
+AL-9209E958,ENT-10,high,unauthorized_access,escalated,True,2026-04-01T22:52:39,2026-04-02T00:35:45,103.1,Visit political wall appear voice item yet.,AST-ENT-10-18,ANL-003
+AL-CAAD8274,ENT-02,critical,malware,closed,False,2026-01-20T02:46:41,2026-01-20T03:34:59,48.3,Draw police performance artist student matter movie.,AST-ENT-02-01,ANL-011
+AL-366F0B6C,ENT-07,low,policy_violation,open,False,2026-06-03T18:15:13,,,Every story trial never attention choice fast enjoy happen a point here control affect.,AST-ENT-07-06,ANL-018
+AL-759AF74B,ENT-03,medium,malware,open,False,2026-04-27T00:02:52,,,Get kind either look dark Mrs usually receive.,AST-ENT-03-14,ANL-023
+AL-3A625417,ENT-10,critical,phishing,escalated,True,2026-02-12T04:10:11,2026-02-12T04:48:35,38.4,Parent I and technology age join increase teacher fish either boy between collection century eight.,AST-ENT-10-12,ANL-023
+AL-E127DCC1,ENT-03,medium,policy_violation,open,False,2026-03-12T15:53:14,,,During recently feel stock ball yard practice all if help live PM reflect bar suddenly.,AST-ENT-03-11,ANL-020
+AL-9E769495,ENT-05,high,policy_violation,open,False,2026-06-07T10:08:54,,,Real far send allow sport bill test science.,AST-ENT-05-20,ANL-014
+AL-963DD3F7,ENT-08,high,insider_threat,closed,False,2026-04-30T18:53:31,2026-04-30T19:25:01,31.5,Million health machine future treat bill choice determine could.,AST-ENT-08-19,ANL-002
+AL-32BC0920,ENT-01,high,malware,escalated,True,2026-06-11T13:02:53,2026-06-11T14:46:23,103.5,Financial add impact different success box water positive child.,AST-ENT-01-18,ANL-012
+AL-321BCAE1,ENT-09,low,insider_threat,open,False,2026-05-28T02:04:52,,,Tell soon executive sometimes season natural own begin effort drive.,AST-ENT-09-19,ANL-001
+AL-EDFA834B,ENT-04,low,unauthorized_access,closed,False,2026-03-23T04:38:56,2026-03-23T05:29:38,50.7,Around beat its law participant finally score scientist budget remain.,AST-ENT-04-11,ANL-025
+AL-C3F66693,ENT-08,medium,malware,closed,False,2026-01-04T06:43:03,2026-01-04T08:33:15,110.2,Would at whether series because important trial increase new report sense carry control high network.,AST-ENT-08-20,ANL-025
+AL-43A53FED,ENT-01,high,dos_attempt,escalated,True,2026-06-24T15:59:45,2026-06-24T16:45:15,45.5,Office traditional heart walk cup option store drug recent feeling range.,AST-ENT-01-01,ANL-018
+AL-2E4B267A,ENT-07,low,malware,escalated,True,2026-04-02T08:51:33,2026-04-02T09:33:15,41.7,Kitchen agent lot matter couple type run model.,AST-ENT-07-20,ANL-016
+AL-29607206,ENT-05,high,data_exfiltration,open,False,2026-04-28T08:42:55,,,Consider fish speak particularly policy bit many.,AST-ENT-05-18,ANL-025
+AL-BD252AD3,ENT-01,medium,malware,closed,False,2026-03-08T18:56:59,2026-03-08T21:16:29,139.5,Movie win her need stop peace technology officer relate animal direction eye bag do.,AST-ENT-01-13,ANL-018
+AL-167361C5,ENT-07,low,dos_attempt,closed,False,2026-02-11T14:47:49,2026-02-11T15:31:43,43.9,Condition Republican information finally shoulder land phone brother capital.,AST-ENT-07-14,ANL-001
+AL-9438AE73,ENT-06,high,malware,escalated,True,2026-05-24T20:17:05,2026-05-24T20:41:29,24.4,Democrat hundred full nearly recent religious claim who.,AST-ENT-06-08,ANL-016
+AL-ADD83FC7,ENT-12,medium,data_exfiltration,open,False,2026-06-21T17:35:29,,,Education few whose probably him final in then road become player since general.,AST-ENT-12-14,ANL-020
+AL-23C04DE9,ENT-10,low,unauthorized_access,closed,False,2026-05-14T22:19:27,2026-05-14T22:34:09,14.7,How fill thousand number very hear nearly care base know.,AST-ENT-10-05,ANL-009
+AL-08FCCCE0,ENT-10,low,data_exfiltration,escalated,True,2026-03-06T03:04:12,2026-03-06T03:51:42,47.5,Child weight question arrive which consider require fear.,AST-ENT-10-CORE,ANL-025
+AL-2EC3105B,ENT-01,low,phishing,closed,False,2026-05-11T15:27:18,2026-05-11T15:44:42,17.4,Building court build movie several continue describe machine right with.,AST-ENT-01-CORE,ANL-020
+AL-B7F8AA0F,ENT-02,medium,insider_threat,open,False,2026-05-02T19:09:41,,,Address century that wide avoid sit enter perhaps however bag forget purpose move west.,AST-ENT-02-20,ANL-004
+AL-05D7C84A,ENT-08,medium,data_exfiltration,open,False,2026-01-27T11:35:01,,,Agreement share manage wife out gun lose job election rather.,AST-ENT-08-05,ANL-022
+AL-30E67C86,ENT-09,medium,dos_attempt,open,False,2026-03-13T21:19:02,,,Cup increase consider then war this difference way type positive phone.,AST-ENT-09-10,ANL-012
+AL-938A7C0C,ENT-06,low,malware,closed,False,2026-05-23T07:43:42,2026-05-23T08:10:30,26.8,Our myself election accept season according mission mind heart day sound.,AST-ENT-06-17,ANL-009
+AL-AA19E5CC,ENT-10,high,phishing,escalated,True,2026-04-03T09:38:36,2026-04-03T10:03:30,24.9,Federal only nothing allow cause with yes nothing sometimes trial off hospital high we as.,AST-ENT-10-03,ANL-017
+AL-55E3111D,ENT-04,low,phishing,open,False,2026-03-03T06:46:59,,,Career seek in arrive everyone pretty reduce car.,AST-ENT-04-18,ANL-009
+AL-16E38075,ENT-09,medium,insider_threat,closed,False,2026-05-09T19:46:49,2026-05-09T22:11:25,144.6,Bank me box product conference consider hotel bar theory fear onto lawyer prove perhaps enter whom.,AST-ENT-09-02,ANL-016
+AL-82F0EDE9,ENT-04,high,malware,escalated,True,2026-04-01T13:55:11,2026-04-01T15:00:11,65.0,Window choice force only shake power poor financial join well.,AST-ENT-04-CORE,ANL-010
+AL-BAB95999,ENT-05,low,insider_threat,closed,False,2026-05-28T13:52:33,2026-05-28T14:52:03,59.5,My PM report set no old wall report purpose throw move there institution actually.,AST-ENT-05-CORE,ANL-021
+AL-83939FCE,ENT-12,medium,data_exfiltration,closed,False,2026-05-22T03:28:39,2026-05-22T04:55:27,86.8,Program smile among decision social heart mind.,AST-ENT-12-06,ANL-019
+AL-C7614933,ENT-12,medium,dos_attempt,closed,False,2026-05-29T20:07:06,2026-05-29T22:59:12,172.1,Stay along leg pay major green past forget government accept three control great big man.,AST-ENT-12-CORE,ANL-009
+AL-E0D8058C,ENT-07,low,unauthorized_access,open,False,2026-03-21T11:22:56,,,Notice design baby foot lot major together reflect standard believe politics also space.,AST-ENT-07-10,ANL-004
+AL-B4BF3FA2,ENT-09,medium,policy_violation,escalated,True,2026-04-29T06:16:48,2026-04-29T07:44:24,87.6,Wish dog late eat old positive beat light the window huge.,AST-ENT-09-20,ANL-017
+AL-0E1B7F15,ENT-05,medium,dos_attempt,open,False,2026-02-20T22:39:19,,,News a before page people fight meet.,AST-ENT-05-11,ANL-013
+AL-7859E815,ENT-10,low,data_exfiltration,escalated,True,2026-01-18T09:32:28,2026-01-18T10:03:10,30.7,Home tough deal that finally stand professor city.,AST-ENT-10-07,ANL-012
+AL-F5E88B31,ENT-02,low,insider_threat,open,False,2026-05-15T01:05:38,,,Television answer pretty event son join hundred keep what fund cost reality.,AST-ENT-02-13,ANL-016
+AL-76C24E7B,ENT-03,critical,data_exfiltration,closed,False,2026-05-03T12:08:40,2026-05-03T12:48:22,39.7,Not teach believe month amount deep test thought little another avoid understand.,AST-ENT-03-13,ANL-009
+AL-7A7E5FF7,ENT-02,low,policy_violation,open,False,2026-03-31T06:32:26,,,Color bad that people drive tree central leave effect.,AST-ENT-02-17,ANL-009
+AL-F1666A5F,ENT-09,medium,phishing,closed,False,2026-03-15T01:49:09,2026-03-15T03:36:39,107.5,Campaign hand special once she personal herself.,AST-ENT-09-12,ANL-016
+AL-FE5DB2B0,ENT-08,medium,policy_violation,open,False,2026-06-17T22:27:12,,,Trial together individual analysis yard safe mean international hour.,AST-ENT-08-10,ANL-022
+AL-BA919376,ENT-03,low,dos_attempt,closed,False,2026-05-16T15:09:09,2026-05-16T15:48:57,39.8,Himself science so ready bad seat generation best discussion away painting pass.,AST-ENT-03-10,ANL-013
+AL-49F5DB70,ENT-06,critical,unauthorized_access,escalated,True,2026-03-16T08:58:50,2026-03-16T09:28:50,30.0,Movement reach man sense federal she something others someone nature country think join economic.,AST-ENT-06-17,ANL-021
+AL-A0273C1E,ENT-08,low,policy_violation,open,False,2026-05-17T19:48:34,,,Them if smile have less plant team audience throw.,AST-ENT-08-18,ANL-020
+AL-AFA1CADE,ENT-08,high,policy_violation,escalated,True,2026-03-21T20:43:24,2026-03-21T21:09:42,26.3,Finish action across attack in moment rate goal rise.,AST-ENT-08-01,ANL-022
+AL-71D91C63,ENT-07,high,unauthorized_access,escalated,True,2026-03-03T21:19:42,2026-03-03T21:50:12,30.5,Which language however risk work other military year few feel develop talk.,AST-ENT-07-13,ANL-024
+AL-66A6E0CE,ENT-05,low,dos_attempt,closed,False,2026-01-23T12:55:20,2026-01-23T13:22:44,27.4,Head garden box hundred lead structure ready long.,AST-ENT-05-07,ANL-016
+AL-D71DF9C5,ENT-11,medium,unauthorized_access,escalated,True,2026-01-31T11:41:51,2026-01-31T13:54:27,132.6,When benefit structure professional right analysis mention spring follow phone.,AST-ENT-11-10,ANL-017
+AL-4CB9B4B2,ENT-08,critical,dos_attempt,escalated,True,2026-05-23T23:00:20,2026-05-24T00:25:26,85.1,Event serious collection have close during old card social.,AST-ENT-08-16,ANL-025
+AL-E9853FD1,ENT-01,medium,phishing,closed,False,2026-01-30T16:07:26,2026-01-30T17:39:38,92.2,Author coach film see notice eye buy read record.,AST-ENT-01-15,ANL-002
+AL-5FDCC1FF,ENT-09,medium,data_exfiltration,escalated,True,2026-06-28T11:40:38,2026-06-28T12:53:20,72.7,Consumer like clear level break time manager kid writer night.,AST-ENT-09-19,ANL-012
+AL-DD142CB7,ENT-06,high,data_exfiltration,closed,False,2026-04-08T00:13:24,2026-04-08T01:26:12,72.8,Voice American seven discussion enough doctor protect military social hold truth thing always possible.,AST-ENT-06-12,ANL-005
+AL-6E29AEDD,ENT-02,high,data_exfiltration,closed,False,2026-02-21T08:54:50,2026-02-21T09:57:20,62.5,Why outside goal official defense prevent difference.,AST-ENT-02-05,ANL-005
+AL-A821F231,ENT-04,low,insider_threat,open,False,2026-04-03T17:04:16,,,Today mind red head window be believe card star avoid.,AST-ENT-04-02,ANL-003
+AL-2D3D15F9,ENT-01,high,policy_violation,closed,False,2026-06-02T13:54:05,2026-06-02T13:58:11,4.1,Deep something future they red everybody act way beat result major serve real position.,AST-ENT-01-15,ANL-007
+AL-F27B2CB9,ENT-07,high,data_exfiltration,closed,False,2026-06-26T20:39:23,2026-06-26T21:08:05,28.7,Speech personal these three spring ahead never exactly charge today prevent.,AST-ENT-07-18,ANL-009
+AL-C2D9C1DB,ENT-01,high,phishing,escalated,True,2026-04-05T07:15:06,2026-04-05T09:01:36,106.5,Camera final together someone team together decide economic bill sister this image per.,AST-ENT-01-06,ANL-001
+AL-D44C9E68,ENT-02,critical,policy_violation,open,False,2026-02-02T05:15:22,,,Glass news boy everything difficult investment night should.,AST-ENT-02-15,ANL-010
+AL-8EC2EB64,ENT-12,medium,malware,closed,False,2026-05-19T03:41:21,2026-05-19T04:25:03,43.7,Help everybody garden one long pull beyond article.,AST-ENT-12-12,ANL-017
+AL-06DBBE20,ENT-09,high,phishing,open,False,2026-03-24T17:38:15,,,Political contain kitchen political able customer figure.,AST-ENT-09-18,ANL-019
+AL-1C448660,ENT-03,critical,insider_threat,closed,False,2026-02-11T04:29:05,2026-02-11T04:47:53,18.8,Hundred now crime network available mean share.,AST-ENT-03-05,ANL-019
+AL-118F0A92,ENT-01,low,unauthorized_access,closed,False,2026-01-22T05:13:50,2026-01-22T05:50:38,36.8,Data plant enough major town suffer begin interest everybody about side PM.,AST-ENT-01-CORE,ANL-009
+AL-1035FB61,ENT-09,medium,data_exfiltration,open,False,2026-02-10T21:09:08,,,Hundred message right very toward test discussion art affect office network environmental possible threat.,AST-ENT-09-13,ANL-015
+AL-62BEEEE5,ENT-07,low,dos_attempt,open,False,2026-06-20T21:43:48,,,Involve training show prevent north citizen attack mouth rest.,AST-ENT-07-16,ANL-020
+AL-F8DEA982,ENT-10,medium,dos_attempt,open,False,2026-03-26T22:53:52,,,Thing rock ever summer age wide question pass quite third.,AST-ENT-10-06,ANL-012
+AL-A2E7D50B,ENT-02,low,insider_threat,open,False,2026-06-11T07:29:13,,,Suddenly current his low down occur offer yeah far within probably ever not rate.,AST-ENT-02-08,ANL-015
+AL-7F6C0584,ENT-06,medium,unauthorized_access,closed,False,2026-04-28T23:35:20,2026-04-29T02:12:32,157.2,Defense already end thus music president chance hotel through operation tax card may bed hair action.,AST-ENT-06-10,ANL-017
+AL-80892BD8,ENT-07,low,insider_threat,closed,False,2026-04-11T01:19:51,2026-04-11T01:45:27,25.6,Result hour voice occur movie political region although body lead there there.,AST-ENT-07-05,ANL-017
+AL-BC900D84,ENT-02,high,malware,open,False,2026-01-09T19:19:53,,,Enough decision occur peace air threat nation politics few each southern image law read citizen.,AST-ENT-02-04,ANL-008
+AL-FD3D59E7,ENT-10,critical,data_exfiltration,escalated,True,2026-01-09T03:42:11,2026-01-09T04:48:59,66.8,Live top pull including time reflect several Mrs skin power back all story public public good.,AST-ENT-10-05,ANL-025
+AL-7FDFBE1B,ENT-07,medium,unauthorized_access,open,False,2026-06-28T02:17:03,,,Role minute question their rather individual of interview.,AST-ENT-07-CORE,ANL-005
+AL-2575B12C,ENT-06,critical,unauthorized_access,escalated,True,2026-02-12T14:31:55,2026-02-12T16:00:37,88.7,Bag seek certainly entire hotel myself consider time economic high actually window.,AST-ENT-06-06,ANL-008
+AL-7B23D3A2,ENT-04,high,malware,closed,False,2026-05-24T10:31:43,2026-05-24T12:23:01,111.3,Artist production candidate factor surface unit hotel story for laugh do want carry show board.,AST-ENT-04-06,ANL-013
+AL-9264A5E3,ENT-10,low,phishing,closed,False,2026-02-08T16:14:43,2026-02-08T16:50:49,36.1,Fight image base player data whose health world site.,AST-ENT-10-16,ANL-022
+AL-DB194943,ENT-02,low,data_exfiltration,closed,False,2026-04-01T08:14:14,2026-04-01T08:27:56,13.7,Analysis current among value middle writer myself education send course.,AST-ENT-02-19,ANL-021
+AL-121D6989,ENT-01,high,insider_threat,open,False,2026-03-17T17:28:10,,,Yourself public especially American series like prepare.,AST-ENT-01-18,ANL-020
+AL-48B6FE6E,ENT-04,medium,data_exfiltration,closed,False,2026-02-02T17:54:00,2026-02-02T18:49:42,55.7,Attack energy always art smile media pick may indeed reduce bar Mr pattern everyone finally memory.,AST-ENT-04-20,ANL-019
+AL-2B75C418,ENT-01,low,malware,closed,False,2026-04-21T21:15:13,2026-04-21T22:04:25,49.2,Available defense enter value thing these hard citizen.,AST-ENT-01-07,ANL-004
+AL-0A31D5A6,ENT-03,medium,data_exfiltration,open,False,2026-03-28T06:06:57,,,Success here television key issue statement prepare organization feel owner receive look.,AST-ENT-03-08,ANL-016
+AL-1FDF7C31,ENT-06,medium,phishing,open,False,2026-04-30T19:19:19,,,Kind hand employee field a spring summer gas.,AST-ENT-06-18,ANL-002
+AL-EA91953F,ENT-10,low,malware,open,False,2026-02-24T18:44:56,,,Serious whatever miss seek me affect probably mother while ever day stop stuff often be.,AST-ENT-10-08,ANL-005
+AL-A5B97165,ENT-06,critical,policy_violation,escalated,True,2026-03-26T08:50:25,2026-03-26T09:51:19,60.9,Attention her car admit mission training range step painting concern top outside there mother sell behavior.,AST-ENT-06-CORE,ANL-024
+AL-2F648BFC,ENT-09,high,dos_attempt,escalated,True,2026-05-01T07:09:10,2026-05-01T07:48:28,39.3,Serious amount blue soldier message arrive budget education at property senior site turn day.,AST-ENT-09-11,ANL-022
+AL-D9FD38B1,ENT-04,medium,unauthorized_access,open,False,2026-02-11T13:15:02,,,Run national somebody character usually agency must player really act.,AST-ENT-04-09,ANL-004
+AL-B50C66E4,ENT-12,medium,dos_attempt,closed,False,2026-03-04T21:35:40,2026-03-04T23:48:34,132.9,Case receive fact certain design security same across rise offer question write challenge wear interview.,AST-ENT-12-19,ANL-001
+AL-8CDD3ECE,ENT-05,low,dos_attempt,open,False,2026-04-12T05:12:21,,,Speak line group once do city easy drop.,AST-ENT-05-18,ANL-024
+AL-7C6DDDCA,ENT-12,medium,data_exfiltration,open,False,2026-04-04T11:55:54,,,Reveal each budget however few other common seat simply yard provide bed less stand him place.,AST-ENT-12-18,ANL-015
+AL-C0780D94,ENT-07,low,insider_threat,open,False,2026-03-31T03:05:08,,,Fear turn any indicate condition public particularly reality organization skin concern lay often use behavior federal.,AST-ENT-07-17,ANL-020
+AL-7F8C9839,ENT-07,medium,data_exfiltration,closed,False,2026-04-30T04:05:28,2026-04-30T06:15:16,129.8,Simply draw return probably much hold model marriage necessary party follow political.,AST-ENT-07-13,ANL-024
+AL-AC6A2BF6,ENT-01,medium,phishing,closed,False,2026-01-26T17:17:32,2026-01-26T19:59:26,161.9,Fight decision size parent focus kid put.,AST-ENT-01-06,ANL-018
+AL-2D333B38,ENT-08,low,phishing,escalated,True,2026-04-29T17:08:12,2026-04-29T17:52:24,44.2,Particular present evening establish sort effort once leave push drop public side mind.,AST-ENT-08-05,ANL-016
+AL-B99FDD33,ENT-04,medium,phishing,closed,False,2026-02-13T05:48:41,2026-02-13T08:45:29,176.8,Collection off start house ahead raise common.,AST-ENT-04-18,ANL-018
+AL-E08D938A,ENT-03,medium,policy_violation,closed,False,2026-03-28T02:18:53,2026-03-28T04:57:11,158.3,Several marriage method material final age war measure whom Democrat.,AST-ENT-03-CORE,ANL-012
+AL-F20E0774,ENT-05,critical,malware,open,False,2026-04-30T05:56:44,,,Throughout party activity various measure light many close seem fly former everything medical nearly her.,AST-ENT-05-13,ANL-023
+AL-3C643AFF,ENT-08,low,insider_threat,closed,False,2026-05-31T03:55:31,2026-05-31T04:36:49,41.3,Question bring agent pay detail group for part crime.,AST-ENT-08-07,ANL-022
+AL-82DEE1DF,ENT-08,high,insider_threat,closed,False,2026-03-31T04:08:40,2026-03-31T04:37:28,28.8,Respond into history activity general final knowledge night democratic.,AST-ENT-08-CORE,ANL-009
+AL-482F0B1D,ENT-01,medium,phishing,open,False,2026-05-19T10:34:58,,,Expect recent room situation product main couple design around save article finish anyone live.,AST-ENT-01-17,ANL-004
+AL-B2A4AC1B,ENT-02,medium,data_exfiltration,open,False,2026-06-28T13:43:44,,,Project together let explain national available war write federal while real.,AST-ENT-02-19,ANL-011
+AL-435A9913,ENT-08,medium,policy_violation,escalated,True,2026-01-21T15:29:51,2026-01-21T16:24:27,54.6,Whom administration fund front return if deep president mission vote thank Mr scientist do.,AST-ENT-08-CORE,ANL-024
+AL-9B43F770,ENT-04,low,policy_violation,open,False,2026-01-22T08:09:00,,,Investigated and closed. False positive.,AST-ENT-04-14,ANL-007
+AL-3E84A30F,ENT-07,low,unauthorized_access,open,False,2026-01-07T06:54:52,,,Number student price moment red eight hand.,AST-ENT-07-20,ANL-021
+AL-8FE5DB36,ENT-01,medium,data_exfiltration,open,False,2026-05-12T22:47:02,,,Wear current after charge call prove nor.,AST-ENT-01-04,ANL-006
+AL-F484A017,ENT-04,medium,dos_attempt,closed,False,2026-05-09T12:10:36,2026-05-09T14:18:36,128.0,Investigated and closed. False positive.,AST-ENT-04-CORE,ANL-013
+AL-AB89F39B,ENT-09,high,policy_violation,escalated,True,2026-04-08T00:17:40,2026-04-08T02:06:58,109.3,Strategy pull same somebody son suddenly perform executive see project can current paper.,AST-ENT-09-18,ANL-011
+AL-6EEA0746,ENT-06,medium,insider_threat,closed,False,2026-05-16T09:36:07,2026-05-16T12:05:31,149.4,Statement wonder across protect knowledge toward party perform where radio fly trouble war history music.,AST-ENT-06-14,ANL-007
+AL-A66AB26F,ENT-12,medium,data_exfiltration,closed,False,2026-02-04T17:38:04,2026-02-04T20:20:28,162.4,Speak court work the key tree body player bag.,AST-ENT-12-CORE,ANL-023
+AL-DC2E0021,ENT-07,medium,unauthorized_access,open,False,2026-01-17T15:25:30,,,Choose rock beat science drug per challenge strategy explain gas sound figure.,AST-ENT-07-19,ANL-018
+AL-83923FC6,ENT-03,high,unauthorized_access,escalated,True,2026-04-25T08:20:20,2026-04-25T08:48:14,27.9,South trip none whose newspaper care drug data position.,AST-ENT-03-11,ANL-011
+AL-C8DD892E,ENT-02,medium,policy_violation,closed,False,2026-01-23T19:25:54,2026-01-23T21:10:42,104.8,Last special prepare focus little character artist.,AST-ENT-02-17,ANL-009
+AL-C6881573,ENT-08,low,policy_violation,escalated,True,2026-03-29T00:17:26,2026-03-29T00:52:20,34.9,Audience road since affect marriage present a also.,AST-ENT-08-16,ANL-021
+AL-5565A899,ENT-07,high,data_exfiltration,closed,False,2026-05-17T20:07:22,2026-05-17T21:51:58,104.6,First next popular girl through run again help right economy.,AST-ENT-07-03,ANL-023
+AL-2455E41B,ENT-01,critical,unauthorized_access,closed,False,2026-01-07T02:23:41,2026-01-07T02:26:17,2.6,Daughter respond draw how public feel first sell authority leader your.,AST-ENT-01-16,ANL-018
+AL-75993F9A,ENT-05,medium,dos_attempt,closed,False,2026-05-28T20:07:54,2026-05-28T20:51:00,43.1,Change she tonight south sort outside produce race return pretty.,AST-ENT-05-18,ANL-017
+AL-84392AE2,ENT-10,high,data_exfiltration,escalated,True,2026-02-16T17:50:54,2026-02-16T18:32:18,41.4,Reason fish involve player TV several onto take family chance easy picture.,AST-ENT-10-09,ANL-015
+AL-C4FFEF1D,ENT-02,medium,phishing,escalated,True,2026-05-07T04:27:29,2026-05-07T05:46:47,79.3,Heart agreement us stuff practice social case expert.,AST-ENT-02-18,ANL-011
+AL-9E653DE7,ENT-08,medium,insider_threat,closed,False,2026-01-09T20:07:26,2026-01-09T21:31:08,83.7,State few one management science different social.,AST-ENT-08-10,ANL-022
+AL-944AD4EC,ENT-09,medium,insider_threat,escalated,True,2026-01-23T19:39:58,2026-01-23T21:48:52,128.9,Edge this draw business southern forget once hope security door institution certain compare wide keep.,AST-ENT-09-18,ANL-001
+AL-E868ABDC,ENT-04,high,data_exfiltration,open,False,2026-05-26T10:36:28,,,Clearly letter image movie who debate final enter.,AST-ENT-04-01,ANL-019
+AL-FE119224,ENT-01,high,data_exfiltration,escalated,True,2026-06-19T08:35:30,2026-06-19T09:42:36,67.1,Move trade option production base investment term consider employee force lawyer front they everything week instead.,AST-ENT-01-15,ANL-010
+AL-7983DB11,ENT-03,medium,data_exfiltration,closed,False,2026-03-23T07:06:03,2026-03-23T09:36:15,150.2,Half usually customer young conference should agree road wall decide something story attorney.,AST-ENT-03-CORE,ANL-002
+AL-406D9230,ENT-10,medium,dos_attempt,open,False,2026-04-24T01:02:32,,,Discover American mention from later it happen marriage event agent kid enter.,AST-ENT-10-03,ANL-013
+AL-7A55BCCD,ENT-04,high,policy_violation,escalated,True,2026-01-09T14:37:09,2026-01-09T15:31:03,53.9,Themselves allow enjoy television beautiful tend bring speech decide scene ready.,AST-ENT-04-15,ANL-016
+AL-5CF75FC6,ENT-01,low,dos_attempt,open,False,2026-05-24T02:50:40,,,Someone not American mouth product attention positive actually information.,AST-ENT-01-11,ANL-011
+AL-7CDA33D6,ENT-08,low,dos_attempt,escalated,True,2026-01-02T17:01:41,2026-01-02T17:28:59,27.3,Success knowledge fight car smile commercial employee machine wife show another good lay coach under.,AST-ENT-08-20,ANL-008
+AL-83DFB269,ENT-09,low,dos_attempt,escalated,True,2026-01-29T12:26:27,2026-01-29T12:49:21,22.9,Sound item music customer I person law shake Congress affect reflect television officer defense.,AST-ENT-09-13,ANL-019
+AL-116A8E36,ENT-01,low,dos_attempt,escalated,True,2026-01-31T13:41:22,2026-01-31T14:16:46,35.4,Development process huge everything attorney significant go meeting quickly such.,AST-ENT-01-03,ANL-003
+AL-9A0E0063,ENT-04,medium,data_exfiltration,open,False,2026-03-01T01:19:23,,,Outside parent single real summer probably feeling military meeting security far approach today west manager both.,AST-ENT-04-08,ANL-017
+AL-A3B4E9B6,ENT-03,low,dos_attempt,closed,False,2026-05-06T07:58:56,2026-05-06T08:14:02,15.1,Field training deep couple scientist section senior trial receive region however dream.,AST-ENT-03-06,ANL-005
+AL-E1B3CECF,ENT-06,low,policy_violation,open,False,2026-02-02T09:43:25,,,Next low write officer similar huge catch tell budget discover situation we.,AST-ENT-06-19,ANL-024
+AL-A8D8D2B7,ENT-07,high,malware,closed,False,2026-04-14T20:02:18,2026-04-14T21:28:30,86.2,Serious produce laugh factor past language day.,AST-ENT-07-01,ANL-023
+AL-14C15ABB,ENT-03,medium,data_exfiltration,open,False,2026-02-16T23:30:48,,,Draw bring health center home others offer institution main.,AST-ENT-03-20,ANL-008
+AL-FE5B3F6A,ENT-05,medium,dos_attempt,closed,False,2026-01-11T21:30:52,2026-01-11T22:13:16,42.4,Mission information increase challenge onto serve vote understand none big experience movie gas improve him magazine.,AST-ENT-05-11,ANL-004
+AL-8A107E15,ENT-05,low,data_exfiltration,open,False,2026-06-01T20:15:52,,,Room wear throughout series most adult above safe difficult theory.,AST-ENT-05-13,ANL-004
+AL-31515418,ENT-08,critical,insider_threat,escalated,True,2026-02-18T19:20:04,2026-02-18T20:40:16,80.2,Administration protect class learn now on with less.,AST-ENT-08-15,ANL-008
+AL-D449A21A,ENT-04,medium,policy_violation,open,False,2026-03-01T20:10:27,,,Activity store work candidate statement head piece popular old.,AST-ENT-04-01,ANL-007
+AL-BEA2B518,ENT-06,high,data_exfiltration,open,False,2026-06-27T20:11:33,,,Also his worker pass minute represent our watch star policy keep cut prevent sound experience almost.,AST-ENT-06-19,ANL-004
+AL-5406AAAE,ENT-04,critical,dos_attempt,open,False,2026-01-30T19:04:25,,,Manager follow exist natural candidate system small thus several animal.,AST-ENT-04-03,ANL-005
+AL-73A649B9,ENT-07,low,malware,closed,False,2026-03-06T08:52:27,2026-03-06T09:39:45,47.3,Charge could capital ago worry pay paper partner others discuss ago.,AST-ENT-07-12,ANL-011
+AL-287481A2,ENT-10,medium,phishing,escalated,True,2026-05-16T12:18:44,2026-05-16T13:08:56,50.2,Could board notice later thus behavior bit need allow ready major cost attorney.,AST-ENT-10-16,ANL-021
+AL-7E5C062A,ENT-10,low,data_exfiltration,closed,False,2026-06-06T10:01:13,2026-06-06T10:12:19,11.1,Book everyone matter color create school public owner compare open second camera value.,AST-ENT-10-05,ANL-002
+AL-1931B730,ENT-07,low,phishing,open,False,2026-01-26T03:04:31,,,Condition other or structure record pattern fine stage require provide move wind sense.,AST-ENT-07-16,ANL-001
+AL-137D17F7,ENT-09,low,insider_threat,escalated,True,2026-04-28T13:53:09,2026-04-28T14:26:57,33.8,To public though however style successful door number matter building professional oil simple.,AST-ENT-09-02,ANL-018
+AL-C334EB15,ENT-04,low,data_exfiltration,open,False,2026-02-18T15:54:19,,,Point audience thousand activity guess first hit stuff inside national common likely would authority.,AST-ENT-04-CORE,ANL-020
+AL-621D8391,ENT-04,medium,policy_violation,open,False,2026-02-03T02:38:37,,,Even back head maybe top conference source wonder west attention let executive.,AST-ENT-04-CORE,ANL-008
+AL-CD57380C,ENT-04,low,policy_violation,closed,False,2026-06-25T07:45:49,2026-06-25T08:04:01,18.2,"Checked logs, closing as non-issue.",AST-ENT-04-07,ANL-019
+AL-0EF271C3,ENT-11,medium,unauthorized_access,closed,False,2026-02-10T03:33:31,2026-02-10T06:12:55,159.4,Treatment large memory score me relate actually again serve buy door investment during bag case material.,AST-ENT-11-17,ANL-014
+AL-48594FF5,ENT-10,medium,phishing,escalated,True,2026-06-01T11:37:53,2026-06-01T14:03:29,145.6,Relationship your your sell science treatment across federal state situation.,AST-ENT-10-14,ANL-004
+AL-B91E4D91,ENT-08,critical,dos_attempt,escalated,True,2026-03-16T02:18:14,2026-03-16T03:45:02,86.8,Laugh drive next actually rule wear car fast.,AST-ENT-08-11,ANL-002
+AL-BB49E904,ENT-10,medium,malware,open,False,2026-03-07T12:20:36,,,Standard but dark wide shoulder according strong list expert commercial entire resource.,AST-ENT-10-03,ANL-006
+AL-9F3C0ED0,ENT-01,medium,data_exfiltration,open,False,2026-04-19T23:35:29,,,Behavior discussion own night respond red information.,AST-ENT-01-19,ANL-001
+AL-DC49D467,ENT-05,medium,policy_violation,open,False,2026-04-09T08:59:09,,,Any yes product president after ready indicate herself natural listen check receive piece feeling product production.,AST-ENT-05-12,ANL-018
+AL-19E8EA9C,ENT-04,medium,insider_threat,closed,False,2026-02-26T09:11:10,2026-02-26T11:27:58,136.8,Professor power appear personal rise sense investment before believe degree back order.,AST-ENT-04-06,ANL-012
+AL-3FFB9495,ENT-03,high,unauthorized_access,escalated,True,2026-02-11T14:12:36,2026-02-11T15:49:12,96.6,Here six child hope guess before wall know seven.,AST-ENT-03-05,ANL-003
+AL-6478EF24,ENT-06,low,dos_attempt,open,False,2026-03-15T01:34:04,,,Use live government thus especially water raise travel material current save their deal dark economic.,AST-ENT-06-CORE,ANL-008
+AL-68B21817,ENT-02,medium,data_exfiltration,open,False,2026-03-24T14:59:29,,,Add Mr lawyer pull public once state wait board doctor agent this no.,AST-ENT-02-15,ANL-010
+AL-6810CE10,ENT-03,low,insider_threat,escalated,True,2026-01-14T00:51:50,2026-01-14T01:06:08,14.3,Present discussion school sure also TV individual study.,AST-ENT-03-12,ANL-005
+AL-5F26CB1D,ENT-09,high,insider_threat,closed,False,2026-06-22T02:37:27,2026-06-22T04:26:39,109.2,Foreign break exist outside find wish know network.,AST-ENT-09-01,ANL-019
+AL-CD150497,ENT-06,low,insider_threat,open,False,2026-06-03T06:21:28,,,Key discover method exactly change church own stage produce.,AST-ENT-06-17,ANL-014
+AL-49A52190,ENT-01,critical,policy_violation,closed,False,2026-01-05T02:01:36,2026-01-05T02:03:00,1.4,Church whether bag control organization push dog build three east organization people information on mission.,AST-ENT-01-03,ANL-021
+AL-39DB429A,ENT-12,medium,unauthorized_access,open,False,2026-06-03T20:59:45,,,Inside nearly son research foot share think maybe type.,AST-ENT-12-14,ANL-020
+AL-6BAC4D9E,ENT-08,low,data_exfiltration,open,False,2026-06-18T19:46:13,,,Everyone artist home you election spend concern attorney.,AST-ENT-08-11,ANL-002
+AL-BAB739FF,ENT-06,medium,dos_attempt,closed,False,2026-03-25T09:05:47,2026-03-25T10:12:59,67.2,Board population bank exactly step through cultural safe phone road throughout support place spend often.,AST-ENT-06-08,ANL-020
+AL-50143773,ENT-02,critical,phishing,escalated,True,2026-02-13T00:42:50,2026-02-13T01:16:02,33.2,Whose far that sound life away senior difficult put purpose however suffer newspaper bed.,AST-ENT-02-12,ANL-018
+AL-DAFEB71A,ENT-05,medium,unauthorized_access,open,False,2026-02-26T04:03:55,,,Site grow name machine tree maybe home conference five despite time sing.,AST-ENT-05-11,ANL-010
+AL-580BA08A,ENT-01,high,dos_attempt,open,False,2026-02-17T21:22:02,,,Race Mr environment political born itself law west.,AST-ENT-01-14,ANL-013
+AL-BDB8C783,ENT-04,medium,policy_violation,open,False,2026-04-19T20:03:41,,,Investigated and closed. False positive.,AST-ENT-04-CORE,ANL-018
+AL-782125DD,ENT-08,medium,data_exfiltration,open,False,2026-04-29T06:09:14,,,Price window career case south team throw receive us perhaps lawyer interest star his.,AST-ENT-08-07,ANL-023
+AL-0F29631A,ENT-09,medium,data_exfiltration,closed,False,2026-06-09T10:29:07,2026-06-09T12:10:37,101.5,Specific pass its international American game less difference rather choice manager picture modern.,AST-ENT-09-19,ANL-006
+AL-E0D27822,ENT-06,medium,unauthorized_access,closed,False,2026-03-24T20:23:54,2026-03-24T23:10:06,166.2,Career way much opportunity lead see theory itself policy move training loss dinner.,AST-ENT-06-15,ANL-002
+AL-7F0E8560,ENT-05,high,policy_violation,escalated,True,2026-06-04T21:29:02,2026-06-04T22:58:20,89.3,Garden top grow could way truth idea direction road.,AST-ENT-05-14,ANL-016
+AL-9F08E37C,ENT-10,medium,unauthorized_access,closed,False,2026-02-08T14:07:09,2026-02-08T16:46:39,159.5,Defense subject example claim move attorney bed recognize store rise your there decision measure soon this.,AST-ENT-10-04,ANL-021
+AL-14944324,ENT-08,critical,unauthorized_access,escalated,True,2026-05-11T10:02:14,2026-05-11T10:25:32,23.3,Low happy oil which bag room money teacher seek evidence might model particular early piece.,AST-ENT-08-16,ANL-003
+AL-BAB5D26E,ENT-08,medium,policy_violation,open,False,2026-01-21T04:20:02,,,Develop very everyone against Mrs knowledge public beautiful memory create fish painting want training guess.,AST-ENT-08-03,ANL-022
+AL-1A6F4BAB,ENT-10,medium,phishing,escalated,True,2026-06-15T17:30:52,2026-06-15T18:21:22,50.5,Project chance road become person perhaps hold too fund animal provide kitchen everyone because.,AST-ENT-10-CORE,ANL-020
+AL-600856D7,ENT-07,high,unauthorized_access,open,False,2026-06-26T02:26:00,,,Note garden reason community prove school Republican student boy other foot best knowledge.,AST-ENT-07-CORE,ANL-024
+AL-9FBA5124,ENT-06,high,malware,escalated,True,2026-03-11T01:52:53,2026-03-11T02:17:47,24.9,Newspaper special general in go quickly paper officer practice Mrs without expect foot member simple.,AST-ENT-06-06,ANL-013
+AL-E6EB3DB9,ENT-04,high,dos_attempt,escalated,True,2026-02-03T15:05:18,2026-02-03T16:18:36,73.3,Force network account customer nor fight performance less option management significant.,AST-ENT-04-09,ANL-016
+AL-0D3181EB,ENT-10,medium,insider_threat,escalated,True,2026-05-05T01:34:03,2026-05-05T03:27:45,113.7,Job where senior find those simply challenge final garden hard account only question arm medical strong.,AST-ENT-10-14,ANL-012
+AL-0C3AA10C,ENT-06,high,malware,open,False,2026-01-24T10:00:27,,,Fight security tough gas include position mention claim.,AST-ENT-06-16,ANL-008
+AL-4E9500AD,ENT-05,high,insider_threat,escalated,True,2026-01-07T06:12:16,2026-01-07T07:07:10,54.9,Agent certainly prove customer seek claim expert economy.,AST-ENT-05-15,ANL-004
+AL-1837D95B,ENT-08,medium,unauthorized_access,escalated,True,2026-02-19T12:27:41,2026-02-19T14:07:35,99.9,Power say sell that reflect send set fly.,AST-ENT-08-02,ANL-011
+AL-5081016F,ENT-04,low,policy_violation,open,False,2026-01-28T03:25:35,,,Reviewed alert. No further action required.,AST-ENT-04-20,ANL-010
+AL-89F57BD0,ENT-12,low,policy_violation,closed,False,2026-05-14T23:24:49,2026-05-14T23:58:01,33.2,Especially decide security recognize according collection man best similar.,AST-ENT-12-03,ANL-017
+AL-C20F6674,ENT-09,low,insider_threat,escalated,True,2026-03-04T22:16:51,2026-03-04T23:15:15,58.4,Fine home shake notice make network much like no.,AST-ENT-09-09,ANL-024
+AL-74650517,ENT-12,low,insider_threat,open,False,2026-03-04T16:27:31,,,Short over popular help response save high politics no task speak difference break because become.,AST-ENT-12-14,ANL-018
+AL-BB7001CE,ENT-11,medium,data_exfiltration,open,False,2026-02-19T14:30:46,,,Media left available reason see high second talk however action.,AST-ENT-11-20,ANL-002
+AL-DD4244E0,ENT-07,critical,phishing,escalated,True,2026-03-29T18:43:14,2026-03-29T19:55:20,72.1,Off commercial find throughout music anything ahead tough anyone himself beat.,AST-ENT-07-06,ANL-025
+AL-80B652DA,ENT-06,medium,phishing,closed,False,2026-05-22T21:36:15,2026-05-22T22:53:15,77.0,Pattern education boy provide note approach seem wrong nature popular.,AST-ENT-06-05,ANL-025
+AL-1ED5C994,ENT-07,medium,malware,closed,False,2026-05-02T16:34:21,2026-05-02T18:48:21,134.0,Record professor small think law air little goal leave.,AST-ENT-07-05,ANL-013
+AL-6D4B942D,ENT-04,high,dos_attempt,closed,False,2026-02-09T00:38:11,2026-02-09T02:17:11,99.0,Quite act receive stage write institution car audience him room bill finish thing case similar.,AST-ENT-04-CORE,ANL-019
+AL-33C5ADB2,ENT-05,medium,insider_threat,closed,False,2026-05-31T00:19:58,2026-05-31T02:15:52,115.9,Record security federal reduce team Republican very plan cut person fact generation public wonder practice when.,AST-ENT-05-18,ANL-012
+AL-2D430651,ENT-02,medium,data_exfiltration,closed,False,2026-03-21T14:38:19,2026-03-21T15:19:31,41.2,Surface expect several evening town challenge join watch develop later glass ago apply maybe dog.,AST-ENT-02-09,ANL-020
+AL-8B57AC27,ENT-10,low,insider_threat,open,False,2026-03-05T00:59:52,,,Special produce wait with young think there assume certain under some court.,AST-ENT-10-14,ANL-024
+AL-DE6F7454,ENT-01,high,policy_violation,escalated,True,2026-04-05T20:43:24,2026-04-05T22:34:12,110.8,Compare when military anyone eat summer lead soon property write.,AST-ENT-01-CORE,ANL-014
+AL-4639760D,ENT-04,low,policy_violation,closed,False,2026-06-28T17:56:18,2026-06-28T18:41:36,45.3,"Checked logs, closing as non-issue.",AST-ENT-04-11,ANL-016
+AL-45525889,ENT-02,low,policy_violation,closed,False,2026-05-11T13:03:33,2026-05-11T13:51:45,48.2,Other third choose senior anyone bank kitchen interest parent increase democratic mention generation book question.,AST-ENT-02-17,ANL-015
+AL-8CA097F0,ENT-10,high,malware,closed,False,2026-02-15T13:26:31,2026-02-15T14:07:37,41.1,Its hotel also two character off within woman sometimes.,AST-ENT-10-04,ANL-016
+AL-12CDA94E,ENT-07,high,dos_attempt,escalated,True,2026-05-25T10:00:12,2026-05-25T11:42:48,102.6,Clearly difficult impact why understand wear development provide dark.,AST-ENT-07-14,ANL-021
+AL-69CDB51D,ENT-03,high,policy_violation,escalated,True,2026-01-29T19:17:08,2026-01-29T20:04:38,47.5,First give value somebody event business quality here woman stand west source fact explain.,AST-ENT-03-18,ANL-011
+AL-2971C565,ENT-01,medium,phishing,closed,False,2026-03-03T10:23:25,2026-03-03T12:33:55,130.5,Tonight couple and job mind southern rather vote say culture issue we TV.,AST-ENT-01-09,ANL-005
+AL-05A29DA1,ENT-03,high,insider_threat,open,False,2026-05-29T19:15:08,,,Six tell activity including single right nice yeah drug minute rate college especially environmental certainly cold.,AST-ENT-03-06,ANL-023
+AL-9AC2022D,ENT-04,low,unauthorized_access,open,False,2026-05-17T17:03:14,,,"Checked logs, closing as non-issue.",AST-ENT-04-16,ANL-004
+AL-00FB84FB,ENT-04,medium,data_exfiltration,escalated,True,2026-03-27T02:02:00,2026-03-27T02:42:06,40.1,Room learn professional group as move design involve.,AST-ENT-04-12,ANL-013
+AL-D754EF7E,ENT-12,critical,data_exfiltration,open,False,2026-06-05T19:13:27,,,Face low enter able piece hour type upon where.,AST-ENT-12-CORE,ANL-022
+AL-C4549991,ENT-07,critical,data_exfiltration,escalated,True,2026-05-07T22:09:38,2026-05-07T23:31:20,81.7,Also green catch happen old do specific begin.,AST-ENT-07-04,ANL-007
+AL-CDFBF488,ENT-12,medium,policy_violation,closed,False,2026-03-05T02:07:24,2026-03-05T03:41:30,94.1,Whatever side seem give remember play happy around history interest east local TV.,AST-ENT-12-20,ANL-013
+AL-DEF0E374,ENT-01,critical,dos_attempt,closed,False,2026-01-15T14:39:42,2026-01-15T15:35:36,55.9,Ever back experience even floor music catch discuss really relationship.,AST-ENT-01-19,ANL-005
+AL-BE9263B3,ENT-09,low,insider_threat,closed,False,2026-06-26T06:55:44,2026-06-26T07:27:02,31.3,Total rate movement door kind account whether until truth feeling view series.,AST-ENT-09-08,ANL-003
+AL-48552238,ENT-02,high,dos_attempt,escalated,True,2026-06-17T07:55:12,2026-06-17T09:37:24,102.2,Company appear score moment second live sing.,AST-ENT-02-03,ANL-021
+AL-D4E3E114,ENT-03,low,malware,open,False,2026-03-24T18:34:44,,,Garden great sign return poor really particular court east newspaper different win father eye debate.,AST-ENT-03-15,ANL-003
+AL-F9280266,ENT-03,medium,data_exfiltration,closed,False,2026-05-08T11:48:37,2026-05-08T13:08:37,80.0,Nor allow up fire which onto sell require huge baby class drive strong home to.,AST-ENT-03-05,ANL-010
+AL-D50E4C69,ENT-08,high,unauthorized_access,open,False,2026-03-19T06:12:30,,,Peace television would medical less phone decade apply.,AST-ENT-08-05,ANL-014
+AL-F437D8AD,ENT-07,high,insider_threat,closed,False,2026-04-04T02:34:54,2026-04-04T03:11:12,36.3,Nearly you suddenly include plan step food drive nation heart nearly season.,AST-ENT-07-CORE,ANL-002
+AL-242CB1F1,ENT-06,medium,malware,escalated,True,2026-03-20T02:44:55,2026-03-20T04:35:25,110.5,Specific result loss long decision claim street against amount of claim picture always.,AST-ENT-06-09,ANL-010
+AL-F47B81E3,ENT-06,low,phishing,open,False,2026-06-18T04:00:09,,,Expect stop trip give white everybody paper create upon offer end imagine blood authority family.,AST-ENT-06-18,ANL-001
+AL-6D74490E,ENT-04,high,insider_threat,escalated,True,2026-01-19T18:34:06,2026-01-19T20:13:36,99.5,Run brother tonight friend investment model enjoy window physical many member.,AST-ENT-04-12,ANL-005
+AL-3F4C2931,ENT-12,medium,malware,closed,False,2026-05-15T06:41:13,2026-05-15T09:36:07,174.9,Detail election live today but career movement rise bed reality the.,AST-ENT-12-12,ANL-003
+AL-7A0E3A48,ENT-03,medium,data_exfiltration,open,False,2026-01-06T02:21:06,,,Very according himself land environment form old of end growth door property.,AST-ENT-03-CORE,ANL-023
+AL-FFB4035C,ENT-04,medium,phishing,closed,False,2026-01-20T12:34:23,2026-01-20T13:05:11,30.8,"Checked logs, closing as non-issue.",AST-ENT-04-06,ANL-021
+AL-D97AC3C2,ENT-06,high,malware,closed,False,2026-03-18T23:05:08,2026-03-19T00:08:02,62.9,Animal summer group me face rate paper example unit high state air choose detail section someone.,AST-ENT-06-CORE,ANL-001
+AL-37DB4DD4,ENT-10,medium,malware,closed,False,2026-06-29T11:08:44,2026-06-29T13:21:32,132.8,Explain thing lead red Republican father party special.,AST-ENT-10-03,ANL-024
+AL-07A520ED,ENT-06,medium,insider_threat,open,False,2026-06-12T21:53:56,,,Region miss stop strong enjoy name community president.,AST-ENT-06-06,ANL-016
+AL-A2EB5DCF,ENT-09,medium,phishing,open,False,2026-01-23T21:07:15,,,Say unit four institution truth beyond civil end at inside role natural force receive.,AST-ENT-09-11,ANL-012
+AL-BA81229C,ENT-03,low,insider_threat,closed,False,2026-01-14T23:53:46,2026-01-15T00:25:34,31.8,Cell year doctor trouble office officer significant stand.,AST-ENT-03-03,ANL-011
+AL-B1C867B1,ENT-10,critical,unauthorized_access,closed,False,2026-02-11T22:10:01,2026-02-11T22:32:37,22.6,Outside former official white pattern industry class lawyer smile among detail about development discover.,AST-ENT-10-13,ANL-007
+AL-C07483FB,ENT-08,medium,unauthorized_access,open,False,2026-05-30T22:27:26,,,Sometimes determine source international specific word question food wish office case student soldier share or friend.,AST-ENT-08-17,ANL-016
+AL-601D0C22,ENT-06,medium,unauthorized_access,closed,False,2026-04-06T19:13:38,2026-04-06T21:33:32,139.9,Serious which learn leave only agree break attack plant yes.,AST-ENT-06-08,ANL-001
+AL-0EFC5D29,ENT-01,medium,phishing,open,False,2026-02-20T07:55:12,,,Figure perform participant science way debate decision produce church community avoid able late.,AST-ENT-01-17,ANL-021
+AL-8F17046D,ENT-08,high,data_exfiltration,escalated,True,2026-06-23T16:48:03,2026-06-23T18:10:15,82.2,Page travel school process have compare site door.,AST-ENT-08-03,ANL-011
+AL-DF63B17D,ENT-02,high,malware,closed,False,2026-03-19T18:14:33,2026-03-19T19:20:03,65.5,Commercial way least ready gun join black job hundred bad that second.,AST-ENT-02-11,ANL-025
+AL-01851F01,ENT-07,medium,insider_threat,closed,False,2026-04-24T03:28:19,2026-04-24T06:17:01,168.7,Travel forget my deal catch must son television finally relate model.,AST-ENT-07-04,ANL-010
+AL-EB8B78DF,ENT-05,low,policy_violation,closed,False,2026-02-09T00:02:08,2026-02-09T01:00:20,58.2,Majority shake because pass plant idea whole himself also.,AST-ENT-05-10,ANL-023
+AL-04D11E93,ENT-06,low,dos_attempt,escalated,True,2026-06-19T19:27:10,2026-06-19T20:26:46,59.6,Fact attack better rise maintain former campaign pretty.,AST-ENT-06-CORE,ANL-019
+AL-B1121BDE,ENT-12,medium,unauthorized_access,closed,False,2026-04-26T19:14:32,2026-04-26T20:38:26,83.9,Interest paper field office whose cut television loss week growth.,AST-ENT-12-16,ANL-017
+AL-984B8039,ENT-09,medium,phishing,open,False,2026-06-20T14:08:54,,,Environmental point speak table trade various risk art customer leg drive second she such.,AST-ENT-09-07,ANL-020
+AL-03CACF29,ENT-12,critical,malware,escalated,True,2026-06-21T07:12:00,2026-06-21T08:13:30,61.5,Give voice walk live probably record beyond his.,AST-ENT-12-07,ANL-006
+AL-E57DADD4,ENT-12,low,dos_attempt,closed,False,2026-03-22T09:09:39,2026-03-22T10:01:27,51.8,Happen build bar majority protect meeting age of of event seat some Congress.,AST-ENT-12-11,ANL-018
+AL-7A77CC17,ENT-02,high,unauthorized_access,closed,False,2026-04-02T22:57:16,2026-04-03T00:03:46,66.5,Significant take future skin environment able rise study oil process tend.,AST-ENT-02-12,ANL-020
+AL-024FAC3D,ENT-05,high,unauthorized_access,closed,False,2026-03-03T02:02:56,2026-03-03T03:49:32,106.6,Response blue increase unit study open sign late probably what.,AST-ENT-05-16,ANL-007
+AL-E5EC10FA,ENT-07,high,unauthorized_access,escalated,True,2026-02-08T21:26:59,2026-02-08T23:25:41,118.7,The four threat billion she seat against serve police decide customer expert mother significant provide evening.,AST-ENT-07-15,ANL-011
+AL-452EE329,ENT-01,low,phishing,escalated,True,2026-01-08T10:17:29,2026-01-08T10:49:11,31.7,Let eight hard paper white responsibility sing clearly find official.,AST-ENT-01-11,ANL-020
+AL-AA4E088D,ENT-01,medium,policy_violation,closed,False,2026-02-22T23:58:14,2026-02-23T01:26:32,88.3,Consider one play man before girl four prove tax form really.,AST-ENT-01-13,ANL-006
+AL-A7ECBD73,ENT-09,high,phishing,escalated,True,2026-02-06T07:02:36,2026-02-06T08:22:48,80.2,Price institution method inside after like against first now follow best major real day.,AST-ENT-09-08,ANL-011
+AL-1507C707,ENT-12,critical,malware,escalated,True,2026-01-06T15:06:56,2026-01-06T16:12:38,65.7,While interest meet room look middle your.,AST-ENT-12-CORE,ANL-003
+AL-5A553851,ENT-06,high,policy_violation,escalated,True,2026-06-20T05:13:44,2026-06-20T06:39:14,85.5,Treat imagine later identify first hope brother accept result as.,AST-ENT-06-12,ANL-021
+AL-11EBCFC7,ENT-05,medium,dos_attempt,open,False,2026-03-09T13:26:46,,,Pressure lay future stay staff such forward should outside respond.,AST-ENT-05-10,ANL-019
+AL-142F3465,ENT-12,low,malware,closed,False,2026-03-07T20:33:53,2026-03-07T21:12:23,38.5,Million once research so buy send whole today.,AST-ENT-12-20,ANL-025
+AL-F1B6141E,ENT-02,medium,insider_threat,closed,False,2026-01-02T13:44:21,2026-01-02T16:30:57,166.6,Response coach know language risk treatment past itself police social arm provide image message seek civil.,AST-ENT-02-10,ANL-008
+AL-E5BBE067,ENT-12,low,data_exfiltration,escalated,True,2026-02-11T05:33:59,2026-02-11T05:54:05,20.1,Red nature best food social tend approach various fight pressure.,AST-ENT-12-03,ANL-010
+AL-B0E57A1A,ENT-09,low,unauthorized_access,closed,False,2026-02-28T06:15:38,2026-02-28T06:45:32,29.9,Soldier wall management doctor news yourself grow end.,AST-ENT-09-02,ANL-009
+AL-CE37AA12,ENT-06,medium,phishing,open,False,2026-02-06T15:09:23,,,Summer southern pass coach method land condition we process whose.,AST-ENT-06-08,ANL-013
+AL-71A7357B,ENT-05,high,unauthorized_access,closed,False,2026-05-17T15:45:29,2026-05-17T15:49:11,3.7,Bad know of because material firm wonder seat adult idea.,AST-ENT-05-18,ANL-012
+AL-57CD2A62,ENT-10,medium,malware,open,False,2026-03-29T06:16:55,,,Business million many military analysis return another truth mother first hot.,AST-ENT-10-15,ANL-025
+AL-5DCBEC42,ENT-01,high,malware,closed,False,2026-01-24T06:42:43,2026-01-24T08:00:37,77.9,Voice boy wife condition while enter board its rock finish paper memory.,AST-ENT-01-CORE,ANL-014
+AL-3BB27FB1,ENT-01,high,policy_violation,escalated,True,2026-06-24T18:31:20,2026-06-24T19:22:14,50.9,Black whether player stock religious itself safe whole establish space Mrs low itself room.,AST-ENT-01-13,ANL-010
+AL-B0E82A06,ENT-05,medium,malware,closed,False,2026-02-26T04:23:26,2026-02-26T05:13:44,50.3,Whole approach season data than team kitchen difficult plant remember happy open.,AST-ENT-05-14,ANL-009
+AL-A1BB5AF4,ENT-09,low,malware,closed,False,2026-04-17T13:49:53,2026-04-17T14:14:23,24.5,Party story moment mother necessary series box leave baby standard type look find guy stage.,AST-ENT-09-CORE,ANL-007
+AL-6F443730,ENT-01,high,unauthorized_access,closed,False,2026-04-03T06:58:35,2026-04-03T07:45:05,46.5,Better present music address behavior send door image loss ten total clearly able hospital unit.,AST-ENT-01-14,ANL-018
+AL-068B89D2,ENT-02,medium,data_exfiltration,escalated,True,2026-06-20T17:57:26,2026-06-20T18:37:56,40.5,Mission city health executive impact full our smile positive at behind question exist rich prevent.,AST-ENT-02-14,ANL-017
+AL-1FAE3480,ENT-12,medium,data_exfiltration,open,False,2026-04-28T10:28:11,,,Out final wrong but you religious long.,AST-ENT-12-11,ANL-017
+AL-77FF4008,ENT-12,medium,unauthorized_access,escalated,True,2026-05-23T18:08:27,2026-05-23T19:36:33,88.1,Popular true huge only too million country institution.,AST-ENT-12-02,ANL-010
+AL-103C3EDE,ENT-06,low,phishing,open,False,2026-01-10T19:59:19,,,Professional team foot live window music evening.,AST-ENT-06-13,ANL-001
+AL-C755EABD,ENT-12,low,phishing,open,False,2026-03-18T03:12:39,,,More together improve tree according show economic likely.,AST-ENT-12-11,ANL-016
+AL-B5D53524,ENT-06,medium,unauthorized_access,closed,False,2026-01-12T15:07:52,2026-01-12T17:24:34,136.7,Green single build bad what manage according tax when summer he firm together thing off ever.,AST-ENT-06-CORE,ANL-017
+AL-C66B1691,ENT-08,medium,phishing,closed,False,2026-01-20T09:08:35,2026-01-20T11:46:23,157.8,Off former good within far cold reason our fight size employee picture official of.,AST-ENT-08-11,ANL-024
+AL-D3AA22BF,ENT-02,medium,policy_violation,closed,False,2026-06-03T21:24:30,2026-06-03T22:06:18,41.8,Analysis hit health section ground attack drop price billion old series card good full.,AST-ENT-02-20,ANL-008
+AL-EF355975,ENT-09,medium,data_exfiltration,escalated,True,2026-03-11T16:06:30,2026-03-11T18:30:42,144.2,Perform benefit baby seem should society dark product make energy gas.,AST-ENT-09-09,ANL-008
+AL-B900AD4E,ENT-07,high,dos_attempt,escalated,True,2026-04-05T21:54:40,2026-04-05T22:32:28,37.8,Career including late condition opportunity Republican dark lawyer economic reality trade someone responsibility but box.,AST-ENT-07-19,ANL-012
+AL-8F8EFAA3,ENT-09,critical,policy_violation,escalated,True,2026-03-15T10:35:33,2026-03-15T10:58:39,23.1,White magazine after teacher base own test.,AST-ENT-09-17,ANL-014
+AL-FA8C1DEB,ENT-02,low,malware,open,False,2026-04-20T21:26:12,,,Responsibility service their along attention piece TV young section its better plant their kitchen really tough.,AST-ENT-02-12,ANL-017
+AL-2EBD2A3B,ENT-01,medium,phishing,open,False,2026-01-13T20:27:40,,,Society instead as high you more wife team activity.,AST-ENT-01-16,ANL-021
+AL-4A6E84CA,ENT-01,low,policy_violation,closed,False,2026-01-27T20:40:21,2026-01-27T21:28:09,47.8,Will seven medical blood personal success medical current hear claim well.,AST-ENT-01-05,ANL-006
+AL-53FAE03D,ENT-06,medium,policy_violation,open,False,2026-06-20T21:40:48,,,Six fish detail contain attention measure indeed Mr.,AST-ENT-06-09,ANL-012
+AL-C4E514E5,ENT-12,medium,unauthorized_access,closed,False,2026-03-18T12:52:31,2026-03-18T14:40:37,108.1,Piece put recently population end lay race effect own weight success activity.,AST-ENT-12-02,ANL-017
+AL-8AB63CBF,ENT-06,medium,phishing,escalated,True,2026-02-04T02:34:09,2026-02-04T04:50:21,136.2,Top much ability visit question issue inside themselves recently.,AST-ENT-06-06,ANL-012
+AL-AC048DBD,ENT-04,critical,policy_violation,open,False,2026-02-03T12:38:13,,,Reviewed alert. No further action required.,AST-ENT-04-11,ANL-012
+AL-EBC656D3,ENT-04,critical,phishing,closed,False,2026-03-08T21:37:15,2026-03-08T23:02:21,85.1,True avoid young cup position speak begin suggest speak business walk.,AST-ENT-04-CORE,ANL-002
+AL-56ED523F,ENT-08,low,policy_violation,open,False,2026-06-13T22:48:16,,,Computer always his course receive to piece grow be plan.,AST-ENT-08-12,ANL-015
+AL-447C11A2,ENT-07,critical,unauthorized_access,open,False,2026-06-09T23:38:23,,,Him fight American music change maybe determine anything rule hotel knowledge organization measure develop face hour.,AST-ENT-07-01,ANL-006
+AL-C078EC8F,ENT-05,low,policy_violation,closed,False,2026-02-28T20:57:30,2026-02-28T21:18:06,20.6,Development open compare fill read camera rock we we hot yes whole.,AST-ENT-05-04,ANL-025
+AL-3027C327,ENT-02,medium,insider_threat,open,False,2026-04-05T01:11:40,,,Behavior provide meet adult final week game she court yourself choice fast small medical music.,AST-ENT-02-11,ANL-007
+AL-56E55C90,ENT-05,low,malware,closed,False,2026-02-13T20:34:15,2026-02-13T21:16:57,42.7,Beautiful news need task mind true actually red.,AST-ENT-05-02,ANL-013
+AL-0B5125A9,ENT-05,medium,unauthorized_access,open,False,2026-01-07T09:20:00,,,Teach range win direction feel season similar fly rock painting become kid tree imagine.,AST-ENT-05-CORE,ANL-019
+AL-0964B0A2,ENT-06,low,malware,closed,False,2026-05-07T04:28:18,2026-05-07T04:53:48,25.5,Store over some star consider process enough right garden law.,AST-ENT-06-08,ANL-008
+AL-1893F5D3,ENT-05,critical,dos_attempt,escalated,True,2026-03-26T20:58:44,2026-03-26T21:19:26,20.7,Order concern that only glass clear thus see read expect hit clear occur who.,AST-ENT-05-20,ANL-013
+AL-A8D7918A,ENT-12,medium,data_exfiltration,open,False,2026-02-04T18:07:16,,,Recently if pattern treat second research reflect see each school week statement they month participant.,AST-ENT-12-10,ANL-007
+AL-6C6F24BC,ENT-06,medium,unauthorized_access,open,False,2026-05-23T18:59:33,,,Down likely party hand material decision red head take evidence conference.,AST-ENT-06-03,ANL-005
+AL-3FDA8512,ENT-02,high,insider_threat,escalated,True,2026-01-01T11:57:17,2026-01-01T12:47:11,49.9,Their four old center glass whose recognize hot organization visit finally heavy social spend prove stock.,AST-ENT-02-16,ANL-005
+AL-BFBDBB2A,ENT-01,low,insider_threat,escalated,True,2026-02-13T06:53:56,2026-02-13T07:13:38,19.7,Like see appear weight difference attention whatever American.,AST-ENT-01-03,ANL-009
+AL-61B3439F,ENT-06,medium,dos_attempt,open,False,2026-03-04T16:39:38,,,Agency might side method meet main fast prepare fly bank benefit.,AST-ENT-06-05,ANL-016
+AL-AFD25058,ENT-12,low,data_exfiltration,open,False,2026-05-05T01:15:38,,,Start majority more red tend necessary parent to color water hope generation scientist whose mother organization.,AST-ENT-12-10,ANL-018
+AL-6DB30D61,ENT-08,high,insider_threat,escalated,True,2026-03-19T19:45:30,2026-03-19T20:51:12,65.7,Son television garden base certain value child many year.,AST-ENT-08-16,ANL-014
+AL-9C229E10,ENT-12,low,policy_violation,closed,False,2026-02-15T04:33:41,2026-02-15T04:43:47,10.1,Type simply task road federal spring treatment.,AST-ENT-12-CORE,ANL-004
+AL-4CF99541,ENT-01,high,data_exfiltration,escalated,True,2026-06-21T19:24:46,2026-06-21T20:11:28,46.7,Campaign little near enter their institution deep much role.,AST-ENT-01-04,ANL-014
+AL-A9C6FE89,ENT-12,low,phishing,closed,False,2026-04-11T05:25:03,2026-04-11T05:45:21,20.3,Lay war put vote century data picture especially plan population research nor positive.,AST-ENT-12-CORE,ANL-023
+AL-A86C1AA6,ENT-09,high,malware,open,False,2026-02-09T08:57:38,,,Message member including let result spend green.,AST-ENT-09-04,ANL-003
+AL-54EF34E5,ENT-05,medium,malware,closed,False,2026-06-12T22:20:33,2026-06-13T00:45:15,144.7,Occur style child guess into far product outside current agent color factor bank.,AST-ENT-05-08,ANL-023
+AL-74632647,ENT-08,low,data_exfiltration,open,False,2026-04-20T04:24:56,,,Direction down include customer through available one approach job democratic participant concern.,AST-ENT-08-18,ANL-014
+AL-C47AB880,ENT-07,critical,malware,escalated,True,2026-04-22T00:38:25,2026-04-22T01:30:13,51.8,Bad argue side girl stage indicate test thank dinner present own activity.,AST-ENT-07-CORE,ANL-014
+AL-FD4E46AF,ENT-07,medium,insider_threat,closed,False,2026-01-25T17:29:11,2026-01-25T20:21:29,172.3,Benefit probably analysis visit condition all blood court.,AST-ENT-07-13,ANL-025
+AL-29323D04,ENT-04,medium,data_exfiltration,open,False,2026-02-05T21:08:34,,,Investigated and closed. False positive.,AST-ENT-04-01,ANL-013
+AL-249F5D57,ENT-09,medium,data_exfiltration,open,False,2026-03-25T07:04:51,,,Resource start again whom paper success production wait real small dream need finally when.,AST-ENT-09-13,ANL-019
+AL-57A5D11E,ENT-10,medium,insider_threat,closed,False,2026-02-18T07:19:11,2026-02-18T09:12:59,113.8,Defense lose shoulder spring southern heavy hundred step according act group never central key place tree.,AST-ENT-10-04,ANL-021
+AL-715A2400,ENT-05,high,dos_attempt,escalated,True,2026-03-16T12:13:04,2026-03-16T13:21:46,68.7,State score important effect cultural building system democratic station.,AST-ENT-05-06,ANL-006
+AL-5DECA5A9,ENT-08,high,policy_violation,escalated,True,2026-06-02T12:50:43,2026-06-02T13:39:25,48.7,Detail far church some well town official need discover in miss television.,AST-ENT-08-02,ANL-010
+AL-461F1134,ENT-07,high,insider_threat,escalated,True,2026-03-24T05:04:12,2026-03-24T06:32:30,88.3,Whom night Republican always two figure majority season adult range green few you without.,AST-ENT-07-05,ANL-020
+AL-161C8415,ENT-08,medium,unauthorized_access,closed,False,2026-01-21T18:28:36,2026-01-21T19:26:42,58.1,Already center president likely truth animal red candidate.,AST-ENT-08-13,ANL-015
+AL-17571105,ENT-12,medium,unauthorized_access,open,False,2026-06-02T07:10:04,,,Magazine set easy check memory economic short ten yes easy star.,AST-ENT-12-08,ANL-022
+AL-E755EE9E,ENT-01,critical,phishing,closed,False,2026-05-26T19:44:53,2026-05-26T20:58:17,73.4,Off light key continue anything wait local.,AST-ENT-01-17,ANL-002
+AL-299DBEAA,ENT-02,low,policy_violation,open,False,2026-02-12T23:38:45,,,Ever person pass behavior political option oil commercial person top front under American tell ball.,AST-ENT-02-10,ANL-014
+AL-C7214221,ENT-05,critical,data_exfiltration,escalated,True,2026-04-18T02:50:43,2026-04-18T03:07:01,16.3,Cost and keep enjoy student nor character recent benefit property space including.,AST-ENT-05-18,ANL-001
+AL-42946123,ENT-01,low,phishing,open,False,2026-04-29T23:10:00,,,Newspaper indicate other peace simply herself training father open.,AST-ENT-01-18,ANL-006
+AL-841FC0D5,ENT-06,medium,phishing,escalated,True,2026-06-25T03:20:59,2026-06-25T04:24:29,63.5,Member recognize past purpose growth pretty wish beautiful every human prove if customer address region try.,AST-ENT-06-02,ANL-003
+AL-5B511FF3,ENT-04,high,data_exfiltration,escalated,True,2026-04-24T06:34:50,2026-04-24T06:59:56,25.1,Investigated and closed. False positive.,AST-ENT-04-16,ANL-018
+AL-0DAF8E44,ENT-10,medium,insider_threat,open,False,2026-01-03T22:13:14,,,Play woman remain event production focus decision where foreign trial card two.,AST-ENT-10-13,ANL-008
+AL-E002A039,ENT-08,medium,policy_violation,closed,False,2026-01-02T19:21:44,2026-01-02T21:31:08,129.4,Artist too whose a nice without body executive all it opportunity.,AST-ENT-08-20,ANL-005
+AL-E3BDC7B2,ENT-04,medium,malware,closed,False,2026-02-12T09:52:18,2026-02-12T11:41:06,108.8,How any federal star community weight take new nearly behind big soldier.,AST-ENT-04-12,ANL-019
+AL-2112F076,ENT-07,medium,phishing,closed,False,2026-03-10T01:21:38,2026-03-10T03:39:44,138.1,Now way next newspaper second short office purpose reflect interview.,AST-ENT-07-CORE,ANL-024
+AL-97EC902E,ENT-07,high,insider_threat,closed,False,2026-06-12T15:44:58,2026-06-12T16:33:28,48.5,Plant be religious risk window partner civil nearly analysis color friend the television class.,AST-ENT-07-06,ANL-019
+AL-CAB6868C,ENT-08,medium,policy_violation,open,False,2026-04-22T15:31:06,,,Score indeed kind clearly road today rock increase structure our century field write.,AST-ENT-08-15,ANL-013
+AL-38E51F02,ENT-12,medium,data_exfiltration,open,False,2026-02-10T06:13:54,,,Yard nature front question wrong serious hospital month executive.,AST-ENT-12-11,ANL-018
+AL-346DC961,ENT-03,high,malware,open,False,2026-02-11T00:25:18,,,Leg rest interest here discover leave choice country themselves she allow.,AST-ENT-03-04,ANL-016
+AL-A0AC6FB9,ENT-12,low,data_exfiltration,closed,False,2026-06-17T12:20:42,2026-06-17T12:39:36,18.9,Usually list front investment he three yourself stage wait professor her.,AST-ENT-12-14,ANL-010
+AL-DECAB554,ENT-10,medium,insider_threat,closed,False,2026-04-28T15:56:54,2026-04-28T18:46:24,169.5,Toward call meeting green loss per control case analysis camera.,AST-ENT-10-16,ANL-003
+AL-772F8CAB,ENT-01,medium,unauthorized_access,closed,False,2026-06-06T17:21:30,2026-06-06T19:31:42,130.2,List top somebody college be middle plan friend stand seem pull different current agency each.,AST-ENT-01-04,ANL-009
+AL-1DBC6CF5,ENT-09,high,dos_attempt,escalated,True,2026-05-09T02:11:09,2026-05-09T02:47:57,36.8,Less nice job positive already city carry election sound probably compare.,AST-ENT-09-15,ANL-019
+AL-60DF2247,ENT-03,low,policy_violation,open,False,2026-04-09T13:41:33,,,Important man report kitchen cold not somebody determine allow different eye sit not significant.,AST-ENT-03-02,ANL-013
+AL-6D434618,ENT-10,low,data_exfiltration,closed,False,2026-03-08T18:37:11,2026-03-08T19:21:35,44.4,The once PM you ready way rule indicate clear media machine leader whose.,AST-ENT-10-16,ANL-001
+AL-9401B5FF,ENT-04,high,policy_violation,escalated,True,2026-05-14T05:20:05,2026-05-14T07:09:35,109.5,"Checked logs, closing as non-issue.",AST-ENT-04-04,ANL-010
+AL-A71F56F3,ENT-05,medium,dos_attempt,closed,False,2026-05-23T06:57:58,2026-05-23T07:48:58,51.0,Throw relate issue president parent its approach former window important never understand music produce father benefit.,AST-ENT-05-06,ANL-021
+AL-8965B957,ENT-03,high,phishing,escalated,True,2026-06-11T02:58:09,2026-06-11T04:41:15,103.1,Five feel special boy support possible quality clearly worker during company civil nice when.,AST-ENT-03-16,ANL-020
+AL-56A8DE60,ENT-12,medium,dos_attempt,open,False,2026-05-24T13:42:00,,,Listen situation billion room particularly country talk pick chance build.,AST-ENT-12-CORE,ANL-015
+AL-FE4B06DF,ENT-08,high,policy_violation,closed,False,2026-06-15T07:05:36,2026-06-15T07:26:36,21.0,Speak person expert bar measure surface everyone car exactly tax add.,AST-ENT-08-CORE,ANL-006
+AL-2D229071,ENT-03,low,data_exfiltration,closed,False,2026-01-15T19:57:13,2026-01-15T20:33:43,36.5,Suggest begin right couple environmental purpose owner them could seven right next look thank.,AST-ENT-03-12,ANL-024
+AL-E5DD1674,ENT-03,medium,unauthorized_access,closed,False,2026-01-06T11:21:48,2026-01-06T13:57:42,155.9,Character young lot far turn beat story role give gas six miss give best.,AST-ENT-03-05,ANL-002
+AL-087390A5,ENT-02,low,insider_threat,open,False,2026-03-13T01:01:10,,,Customer career available common require young specific whose worry property remember nearly face feel.,AST-ENT-02-09,ANL-016
+AL-B393E229,ENT-01,high,dos_attempt,escalated,True,2026-05-05T01:43:13,2026-05-05T02:23:07,39.9,Detail audience piece director town teacher audience draw protect Democrat car very number line six space.,AST-ENT-01-06,ANL-025
+AL-952BE0E6,ENT-05,medium,phishing,open,False,2026-05-06T23:15:38,,,Seat draw word collection those become remember police though land enter economic.,AST-ENT-05-16,ANL-004
+AL-AB2F45DF,ENT-05,medium,malware,open,False,2026-05-09T06:57:15,,,Song difference part wall require remember every time surface learn design few minute perhaps once account.,AST-ENT-05-03,ANL-009
+AL-15C38155,ENT-05,low,malware,closed,False,2026-05-20T23:38:05,2026-05-21T00:10:59,32.9,Want author threat matter test high fear approach take case customer important notice trade leader first.,AST-ENT-05-CORE,ANL-013
+AL-110CAB58,ENT-03,medium,unauthorized_access,escalated,True,2026-05-22T16:14:26,2026-05-22T17:48:26,94.0,Beyond side accept nearly upon imagine various there local current white fly position traditional.,AST-ENT-03-12,ANL-022
+AL-98D2ED24,ENT-05,medium,phishing,open,False,2026-01-12T04:32:49,,,My compare also argue own after long forward pass southern future concern sort than.,AST-ENT-05-05,ANL-008
+AL-D3FB9BE4,ENT-05,critical,malware,escalated,True,2026-03-10T17:21:36,2026-03-10T18:21:24,59.8,Else industry home along remain occur couple risk develop movement size.,AST-ENT-05-13,ANL-010
+AL-821F9935,ENT-02,medium,insider_threat,open,False,2026-02-07T04:38:44,,,Industry score choice increase between majority impact week allow have kitchen wear talk between rate.,AST-ENT-02-19,ANL-017
+AL-6B7B327C,ENT-09,medium,policy_violation,open,False,2026-04-05T14:28:18,,,Mission wide common fight season budget campaign reason read film decide wonder interesting several born affect.,AST-ENT-09-CORE,ANL-008
+AL-EF345ED9,ENT-03,low,malware,open,False,2026-04-10T15:51:44,,,Course kid industry include data maybe particularly likely.,AST-ENT-03-20,ANL-024
+AL-E3BD731C,ENT-02,low,data_exfiltration,closed,False,2026-04-28T17:38:42,2026-04-28T18:27:30,48.8,Available ball part assume every plan nature foot yes most law painting between.,AST-ENT-02-15,ANL-019
+AL-EE7028DE,ENT-08,medium,dos_attempt,open,False,2026-05-31T05:31:16,,,Me institution approach health laugh may stop like mother stay tonight.,AST-ENT-08-19,ANL-012
+AL-5A15EEBD,ENT-05,high,phishing,open,False,2026-02-19T01:34:55,,,Deep against mean but represent society heart policy side.,AST-ENT-05-03,ANL-020
+AL-9C99890C,ENT-01,high,dos_attempt,closed,False,2026-02-12T06:33:34,2026-02-12T08:08:22,94.8,Soon ten specific environment skin blue the teach develop staff least figure somebody.,AST-ENT-01-CORE,ANL-016
+AL-FA652B36,ENT-05,medium,malware,open,False,2026-05-15T01:40:15,,,Act catch positive forget thus western environmental.,AST-ENT-05-16,ANL-010
+AL-CBC06398,ENT-01,critical,unauthorized_access,closed,False,2026-03-22T11:26:06,2026-03-22T12:35:00,68.9,Others wonder strategy fast guess few remain call animal approach factor want point sell bill.,AST-ENT-01-13,ANL-005
+AL-BAD15205,ENT-10,high,data_exfiltration,escalated,True,2026-03-02T20:55:56,2026-03-02T21:45:02,49.1,Guess professor charge send instead direction soon including important learn system some gun.,AST-ENT-10-13,ANL-015
+AL-2D85E592,ENT-03,low,insider_threat,open,False,2026-02-07T16:10:51,,,Who why fact reason make office drug heavy staff.,AST-ENT-03-10,ANL-013
+AL-5DE6341E,ENT-10,low,phishing,closed,False,2026-04-17T12:24:22,2026-04-17T13:03:52,39.5,Answer prepare by fear say law work south writer.,AST-ENT-10-19,ANL-017
+AL-8952D4F0,ENT-08,low,policy_violation,closed,False,2026-05-07T05:37:19,2026-05-07T06:12:31,35.2,Time return or for cup quality for single.,AST-ENT-08-11,ANL-004
+AL-CBF52B52,ENT-01,low,malware,open,False,2026-05-01T19:55:39,,,Production hundred set already because education break significant ten stay ability.,AST-ENT-01-01,ANL-021
+AL-96672C31,ENT-05,low,policy_violation,open,False,2026-04-07T22:54:48,,,Avoid color heart rule natural together behavior order.,AST-ENT-05-16,ANL-021
+AL-06495ED9,ENT-09,high,dos_attempt,closed,False,2026-01-26T11:09:10,2026-01-26T12:50:34,101.4,Manager voice get recently again explain court gas.,AST-ENT-09-08,ANL-014
+AL-8E0B2DFE,ENT-05,critical,data_exfiltration,closed,False,2026-01-06T23:49:16,2026-01-07T00:26:10,36.9,Community spring billion price paper focus thing industry participant realize eat huge garden family source catch.,AST-ENT-05-18,ANL-006
+AL-AD28C0C9,ENT-01,critical,dos_attempt,open,False,2026-03-06T18:29:10,,,Fish sense kind spring throughout interview trade knowledge city technology late seem style everyone sing machine.,AST-ENT-01-15,ANL-023
+AL-419C9EA4,ENT-03,low,data_exfiltration,open,False,2026-06-07T02:25:01,,,Inside machine baby edge east person order crime blood fight we.,AST-ENT-03-CORE,ANL-022
+AL-B8C2EDE1,ENT-05,medium,malware,open,False,2026-03-19T14:21:13,,,Win group important civil nature travel read lose doctor actually become book off management we.,AST-ENT-05-14,ANL-001
+AL-8FCB699C,ENT-12,low,malware,open,False,2026-05-30T18:43:14,,,Interview appear body hair wall represent east time consider a produce focus experience exactly paper.,AST-ENT-12-02,ANL-007
+AL-C8739136,ENT-06,medium,insider_threat,closed,False,2026-03-26T11:10:01,2026-03-26T12:15:31,65.5,Girl team simply lead build million firm across purpose here beyond gun technology cost.,AST-ENT-06-11,ANL-013
+AL-9636CF58,ENT-07,medium,dos_attempt,open,False,2026-02-27T09:37:02,,,So film media food accept rate game right pattern ahead compare.,AST-ENT-07-02,ANL-023
+AL-3A3EA905,ENT-06,low,unauthorized_access,escalated,True,2026-05-30T14:10:14,2026-05-30T14:49:38,39.4,Onto together back edge win development image stage generation society thought according.,AST-ENT-06-CORE,ANL-002
+AL-17E6FF3A,ENT-10,low,insider_threat,open,False,2026-03-12T12:28:14,,,Kind show response military attorney full I.,AST-ENT-10-06,ANL-001
+AL-23C89BCE,ENT-11,medium,data_exfiltration,closed,False,2026-03-23T00:54:51,2026-03-23T02:28:51,94.0,Wonder recent question win really forward play this fish surface lot friend.,AST-ENT-11-20,ANL-015
+AL-6CAB3115,ENT-09,medium,phishing,closed,False,2026-05-30T08:43:58,2026-05-30T10:36:40,112.7,World into task thus sort voice happen actually purpose public how.,AST-ENT-09-18,ANL-021
+AL-94BDD628,ENT-08,medium,dos_attempt,closed,False,2026-05-25T09:32:17,2026-05-25T12:28:59,176.7,Cover agency begin voice prevent structure wear point remain build task.,AST-ENT-08-11,ANL-017
+AL-A0F623AB,ENT-08,medium,policy_violation,open,False,2026-06-21T09:39:39,,,Dream company reality other response partner because step feeling industry newspaper court worry.,AST-ENT-08-20,ANL-025
+AL-F01D2F60,ENT-12,medium,phishing,closed,False,2026-05-02T00:31:41,2026-05-02T02:33:47,122.1,Manager region heavy wonder four still decision run special red.,AST-ENT-12-16,ANL-006
+AL-A25E266C,ENT-09,high,policy_violation,escalated,True,2026-06-20T06:01:37,2026-06-20T06:47:25,45.8,Decision three trouble place these short image almost term statement wait.,AST-ENT-09-CORE,ANL-001
+AL-5CFADB59,ENT-06,medium,unauthorized_access,closed,False,2026-06-28T16:33:59,2026-06-28T18:26:53,112.9,Source statement likely outside because enjoy he.,AST-ENT-06-14,ANL-011
+AL-8C28C300,ENT-12,high,unauthorized_access,open,False,2026-01-31T21:05:17,,,Capital whatever society call general add range appear stop involve others account lose.,AST-ENT-12-CORE,ANL-023
+AL-4D82606F,ENT-06,medium,phishing,open,False,2026-01-28T14:34:04,,,Always up others similar personal successful feeling so nearly.,AST-ENT-06-13,ANL-003
+AL-66B8DA95,ENT-10,medium,insider_threat,open,False,2026-04-14T15:36:51,,,Research visit program suddenly doctor federal project spring of cause help scene black might court.,AST-ENT-10-08,ANL-003
+AL-CAF458E5,ENT-09,low,malware,closed,False,2026-03-19T07:25:08,2026-03-19T08:12:32,47.4,Wind cup red collection husband investment employee become.,AST-ENT-09-06,ANL-007
+AL-6C17F027,ENT-02,medium,data_exfiltration,open,False,2026-01-20T12:29:08,,,Top population art every why we station begin deep police wife anything four writer skin.,AST-ENT-02-06,ANL-001
+AL-EC0C9909,ENT-08,medium,policy_violation,closed,False,2026-04-18T11:52:37,2026-04-18T12:54:07,61.5,Decide edge pattern three law bit appear Mr citizen ahead method.,AST-ENT-08-12,ANL-005
+AL-DD12C909,ENT-04,high,insider_threat,escalated,True,2026-03-31T10:40:09,2026-03-31T11:27:45,47.6,"Checked logs, closing as non-issue.",AST-ENT-04-02,ANL-022
+AL-70DDC187,ENT-02,medium,dos_attempt,closed,False,2026-04-28T05:30:34,2026-04-28T06:34:52,64.3,Begin most heavy law church find food.,AST-ENT-02-19,ANL-001
+AL-4599D3C5,ENT-10,low,insider_threat,open,False,2026-01-12T07:41:52,,,Instead crime customer training size game property.,AST-ENT-10-03,ANL-010
+AL-7593FF11,ENT-09,medium,policy_violation,open,False,2026-04-04T12:01:48,,,Me share fund pass guy job market suggest skin subject movie explain answer you.,AST-ENT-09-06,ANL-014
+AL-9E81030C,ENT-02,medium,policy_violation,closed,False,2026-01-25T13:55:09,2026-01-25T15:48:09,113.0,Attention share debate democratic thank forget challenge too able teach.,AST-ENT-02-05,ANL-025
+AL-DEAE7D99,ENT-09,critical,malware,escalated,True,2026-02-10T03:38:13,2026-02-10T04:52:37,74.4,National weight all involve trip himself fire heavy least allow news team field relationship man.,AST-ENT-09-15,ANL-002
+AL-087F79EE,ENT-08,low,policy_violation,closed,False,2026-02-07T00:09:41,2026-02-07T00:57:35,47.9,Plan toward star best particularly structure ask stage box.,AST-ENT-08-CORE,ANL-022
+AL-8166B8E3,ENT-05,high,insider_threat,closed,False,2026-01-29T08:06:20,2026-01-29T08:09:14,2.9,Pressure develop development the inside thought he one less brother approach plant.,AST-ENT-05-16,ANL-003
+AL-D8EFC331,ENT-09,low,insider_threat,closed,False,2026-06-18T09:55:19,2026-06-18T10:46:49,51.5,Five store ask data include statement position either over image box court early.,AST-ENT-09-19,ANL-025
+AL-810DBB67,ENT-03,high,dos_attempt,closed,False,2026-05-27T11:55:33,2026-05-27T12:42:45,47.2,Left southern rich how staff second official and general as yes various attorney value all.,AST-ENT-03-16,ANL-015
+AL-81B0A675,ENT-02,medium,unauthorized_access,escalated,True,2026-06-19T11:10:07,2026-06-19T12:22:49,72.7,Would music sometimes body term capital group small open.,AST-ENT-02-11,ANL-002
+AL-FEA78D9E,ENT-08,high,unauthorized_access,open,False,2026-05-21T18:20:47,,,Most fast send recently partner offer debate range per friend usually method.,AST-ENT-08-03,ANL-006
+AL-88A3C282,ENT-10,medium,insider_threat,closed,False,2026-03-13T00:40:25,2026-03-13T01:55:55,75.5,Lawyer chair international include begin interesting candidate Democrat back quality idea next.,AST-ENT-10-CORE,ANL-025
+AL-62EB349D,ENT-02,low,malware,open,False,2026-02-27T07:27:31,,,Republican until point soldier meeting building cut catch so.,AST-ENT-02-15,ANL-005
+AL-D5A56D98,ENT-06,medium,phishing,open,False,2026-01-06T16:33:50,,,Wide against win example by just account.,AST-ENT-06-CORE,ANL-017
+AL-0BF1BCE7,ENT-08,medium,unauthorized_access,open,False,2026-01-24T04:13:44,,,Thousand book half people half compare next attack remember daughter wonder draw.,AST-ENT-08-09,ANL-006
+AL-CF42494E,ENT-09,medium,dos_attempt,escalated,True,2026-05-03T07:22:14,2026-05-03T09:43:56,141.7,Company teacher me southern front box dinner no main.,AST-ENT-09-12,ANL-018
+AL-138C736B,ENT-01,critical,policy_violation,closed,False,2026-03-12T19:23:57,2026-03-12T20:46:21,82.4,Increase former letter artist strategy hope show watch.,AST-ENT-01-08,ANL-004
+AL-C06645F7,ENT-01,high,unauthorized_access,closed,False,2026-04-18T10:12:32,2026-04-18T10:14:32,2.0,Particularly shoulder lay though offer responsibility himself hundred challenge reach throughout team those sing.,AST-ENT-01-11,ANL-022
+AL-CB82113D,ENT-06,low,phishing,open,False,2026-04-16T13:37:25,,,Stock determine bad personal might son party really even possible mother especially could.,AST-ENT-06-12,ANL-018
+AL-D3E32081,ENT-10,high,dos_attempt,open,False,2026-02-18T00:57:04,,,Small present recently thought sit identify culture feeling already free rise science call yeah exist behavior.,AST-ENT-10-05,ANL-006
+AL-DD561C4F,ENT-09,low,malware,open,False,2026-03-10T13:41:39,,,Firm yes shake character table price sometimes apply chance.,AST-ENT-09-17,ANL-024
+AL-8C8BA2B7,ENT-07,medium,policy_violation,open,False,2026-02-23T04:49:39,,,Leave institution party approach might central stop later reveal both single.,AST-ENT-07-04,ANL-001
+AL-4FA59B5B,ENT-05,low,policy_violation,open,False,2026-02-14T14:47:22,,,List common idea peace race I how these real any little environmental head full soldier financial.,AST-ENT-05-03,ANL-009
+AL-6F7934AA,ENT-08,high,data_exfiltration,escalated,True,2026-01-09T02:40:37,2026-01-09T04:00:19,79.7,Evening information treatment green face morning view.,AST-ENT-08-03,ANL-007
+AL-F123EDAB,ENT-04,high,phishing,escalated,True,2026-01-26T22:28:32,2026-01-26T23:34:02,65.5,"Checked logs, closing as non-issue.",AST-ENT-04-18,ANL-025
+AL-330CD53D,ENT-08,high,phishing,escalated,True,2026-01-17T19:08:36,2026-01-17T21:01:18,112.7,Enjoy what strong line president throughout individual man reach.,AST-ENT-08-01,ANL-006
+AL-1A28DA9C,ENT-10,critical,insider_threat,escalated,True,2026-05-09T20:21:47,2026-05-09T21:45:23,83.6,Fine future player age three music else strategy fight institution measure rule success employee medical.,AST-ENT-10-15,ANL-018
+AL-E0AA8272,ENT-01,low,unauthorized_access,closed,False,2026-05-05T06:36:54,2026-05-05T07:21:06,44.2,Central cause seat much section investment on gun young catch management sense technology check.,AST-ENT-01-02,ANL-002
+AL-370B73B1,ENT-10,high,dos_attempt,escalated,True,2026-02-24T23:28:37,2026-02-25T00:52:43,84.1,Shake personal often beat art almost finish summer assume camera try kind feeling.,AST-ENT-10-CORE,ANL-022
+AL-CBB95A4B,ENT-12,high,phishing,escalated,True,2026-02-07T12:39:21,2026-02-07T13:40:15,60.9,Mr need compare herself figure exist no lose four resource cultural trouble above technology room hear.,AST-ENT-12-09,ANL-008
+AL-68CC7FDA,ENT-04,medium,phishing,closed,False,2026-02-25T13:22:24,2026-02-25T16:02:18,159.9,Investigated and closed. False positive.,AST-ENT-04-12,ANL-013
+AL-FABE21DF,ENT-04,medium,malware,escalated,True,2026-02-17T01:56:10,2026-02-17T04:41:58,165.8,Ability price support road billion morning draw man art young Republican behavior.,AST-ENT-04-08,ANL-004
+AL-D4C7EA92,ENT-06,low,phishing,escalated,True,2026-04-24T12:56:13,2026-04-24T13:11:31,15.3,Without rather sport result sound new task cultural son.,AST-ENT-06-11,ANL-004
+AL-39D78F23,ENT-12,low,phishing,open,False,2026-02-07T16:10:41,,,Unit benefit wind conference appear woman practice order wide.,AST-ENT-12-16,ANL-002
+AL-65EEF855,ENT-08,medium,insider_threat,closed,False,2026-06-04T17:52:03,2026-06-04T20:06:27,134.4,Draw key point decision same generation politics sense break cold human feeling second.,AST-ENT-08-CORE,ANL-006
+AL-DAE47A01,ENT-09,medium,insider_threat,escalated,True,2026-02-20T01:31:37,2026-02-20T03:36:37,125.0,Become system clear single expect sell pressure building make it south financial rate.,AST-ENT-09-08,ANL-011
+AL-1220AA2E,ENT-07,low,data_exfiltration,open,False,2026-02-05T13:09:37,,,At chance subject fund heart move coach paper cost bring site final.,AST-ENT-07-08,ANL-008
+AL-A572BA9B,ENT-09,medium,phishing,open,False,2026-06-20T11:14:40,,,Under turn surface listen recently continue pull blue.,AST-ENT-09-10,ANL-018
+AL-60201B13,ENT-08,medium,policy_violation,escalated,True,2026-05-01T01:12:09,2026-05-01T03:21:27,129.3,Heavy shake possible sort continue book contain far produce.,AST-ENT-08-12,ANL-022
+AL-4E4B6F90,ENT-03,medium,dos_attempt,closed,False,2026-02-06T08:56:45,2026-02-06T10:45:15,108.5,Really population yourself never majority cell fire late approach grow act carry spring white measure.,AST-ENT-03-17,ANL-017
+AL-8D352B5E,ENT-10,low,data_exfiltration,closed,False,2026-02-14T00:34:51,2026-02-14T01:16:33,41.7,Watch state serious activity pressure writer week tend dinner rich decide do only.,AST-ENT-10-02,ANL-017
+AL-20CF20D6,ENT-07,medium,data_exfiltration,open,False,2026-03-01T15:07:15,,,Report even beautiful theory he stop few modern company hear also dark.,AST-ENT-07-19,ANL-015
+AL-522F3341,ENT-10,medium,insider_threat,open,False,2026-05-08T19:51:03,,,It agency something various subject east list when strategy start mind door authority outside.,AST-ENT-10-16,ANL-018
+AL-46815EF5,ENT-08,medium,insider_threat,closed,False,2026-01-29T20:46:47,2026-01-29T21:18:29,31.7,Police two everybody interview tough show food class.,AST-ENT-08-17,ANL-016
+AL-C5EB9266,ENT-07,high,phishing,open,False,2026-04-29T03:05:16,,,Improve bag outside each natural people newspaper stay any challenge president already take project.,AST-ENT-07-09,ANL-013
+AL-BA10B1F6,ENT-11,high,insider_threat,closed,False,2026-03-08T08:50:20,2026-03-08T09:19:08,28.8,In should matter wrong Republican social two notice edge behind.,AST-ENT-11-20,ANL-021
+AL-02F76353,ENT-03,low,dos_attempt,open,False,2026-04-22T11:29:59,,,Nothing serious compare task today still middle beautiful protect continue cell.,AST-ENT-03-20,ANL-022
+AL-1FE54E3C,ENT-02,medium,malware,closed,False,2026-04-26T07:21:38,2026-04-26T08:26:20,64.7,Only no form business government program seek test.,AST-ENT-02-15,ANL-022
+AL-535D3092,ENT-03,medium,data_exfiltration,closed,False,2026-01-31T01:05:41,2026-01-31T03:42:47,157.1,Surface life cover both class learn either control say.,AST-ENT-03-18,ANL-004
+AL-7B6A1926,ENT-07,low,phishing,closed,False,2026-02-11T00:13:04,2026-02-11T00:29:16,16.2,What attorney board sport side her management produce bed stage thought.,AST-ENT-07-02,ANL-021
+AL-8B1BC7F1,ENT-12,high,phishing,escalated,True,2026-06-01T05:09:00,2026-06-01T06:58:24,109.4,Modern pressure run color hear region cup consider way late sport control arrive.,AST-ENT-12-13,ANL-011
+AL-A0C3FF3E,ENT-08,high,policy_violation,escalated,True,2026-04-16T10:56:13,2026-04-16T11:25:25,29.2,Many themselves minute physical fall wide must car get.,AST-ENT-08-07,ANL-011
+AL-DCC360E9,ENT-03,medium,malware,closed,False,2026-04-13T07:41:27,2026-04-13T08:44:33,63.1,President girl condition Mr more road development about age.,AST-ENT-03-02,ANL-007
+AL-AB5529F7,ENT-01,medium,insider_threat,escalated,True,2026-01-16T07:02:04,2026-01-16T08:44:58,102.9,Eat couple large instead everything economic type kitchen.,AST-ENT-01-CORE,ANL-018
+AL-3F3CEC78,ENT-12,high,dos_attempt,escalated,True,2026-01-26T13:02:53,2026-01-26T14:39:05,96.2,Accept thank attorney court plant center daughter begin or story use door back right find return.,AST-ENT-12-09,ANL-019
+AL-FF470255,ENT-02,medium,unauthorized_access,closed,False,2026-05-10T17:59:02,2026-05-10T19:43:08,104.1,Treat seat strategy total simply discover soon.,AST-ENT-02-16,ANL-012
+AL-097AA18B,ENT-01,medium,insider_threat,open,False,2026-01-13T08:03:38,,,Truth out major born guy world southern dream drive note bad rule staff within mouth.,AST-ENT-01-18,ANL-001
+AL-1B4FAF30,ENT-03,medium,data_exfiltration,open,False,2026-04-24T21:07:31,,,Young however many view while unit theory.,AST-ENT-03-14,ANL-022
+AL-36AF3079,ENT-03,critical,phishing,escalated,True,2026-02-21T12:42:08,2026-02-21T13:52:44,70.6,Ago listen whose situation simply officer return on color pick people subject challenge quite all way.,AST-ENT-03-03,ANL-015
+AL-B0BCB444,ENT-12,critical,phishing,escalated,True,2026-04-02T10:09:55,2026-04-02T11:17:01,67.1,Visit seat break happy table west officer ability artist movie suggest woman floor half quickly someone.,AST-ENT-12-17,ANL-017
+AL-5E8440EC,ENT-05,low,malware,open,False,2026-01-22T05:41:54,,,Performance red industry together memory pay executive size marriage participant sing.,AST-ENT-05-20,ANL-019
+AL-49A0D9F6,ENT-03,low,unauthorized_access,open,False,2026-03-29T04:03:00,,,Fine animal ten scientist administration network once result far cultural discover now.,AST-ENT-03-11,ANL-015
+AL-5A6CDA76,ENT-07,medium,dos_attempt,escalated,True,2026-01-20T20:48:32,2026-01-20T23:48:26,179.9,Today star serve successful assume likely business teacher forget including decide decade.,AST-ENT-07-12,ANL-021
+AL-01142B61,ENT-06,high,policy_violation,closed,False,2026-01-12T23:23:57,2026-01-12T23:57:03,33.1,President report painting house thought sit voice security minute late cold take.,AST-ENT-06-12,ANL-021
+AL-533FAD0E,ENT-07,medium,dos_attempt,open,False,2026-02-02T07:11:35,,,Coach Congress husband front citizen your kitchen good.,AST-ENT-07-12,ANL-013
+AL-A6927444,ENT-09,low,insider_threat,closed,False,2026-05-13T15:30:38,2026-05-13T16:05:32,34.9,Life bad soon feel worker range feel eat into notice necessary.,AST-ENT-09-08,ANL-009
+AL-5A16A12A,ENT-04,critical,data_exfiltration,closed,False,2026-04-27T23:38:09,2026-04-28T00:34:03,55.9,Idea seek reason theory lawyer maintain old than.,AST-ENT-04-03,ANL-022
+AL-0B7D3C26,ENT-03,low,policy_violation,closed,False,2026-06-28T22:40:34,2026-06-28T22:59:40,19.1,Fill if maybe time region financial brother trouble far pass despite card check security.,AST-ENT-03-CORE,ANL-013
+AL-EB1F6413,ENT-08,low,malware,escalated,True,2026-04-12T12:05:53,2026-04-12T12:34:53,29.0,Carry rest place wish dark camera realize arrive carry surface learn commercial.,AST-ENT-08-CORE,ANL-007
+AL-169B9BF2,ENT-03,low,phishing,open,False,2026-01-06T04:17:31,,,Whom former someone black better develop section newspaper reach determine hear leg quickly.,AST-ENT-03-08,ANL-003
+AL-5E3C8D71,ENT-12,medium,unauthorized_access,closed,False,2026-03-28T15:42:50,2026-03-28T16:30:26,47.6,Wish their south able that I structure understand.,AST-ENT-12-CORE,ANL-001
+AL-35AD5407,ENT-04,high,malware,open,False,2026-01-27T00:10:55,,,Investigated and closed. False positive.,AST-ENT-04-13,ANL-019
+AL-F3E1D3CA,ENT-09,medium,malware,closed,False,2026-04-30T10:59:35,2026-04-30T12:23:35,84.0,Item employee finish without material wind exactly guess involve total enjoy stop unit might job.,AST-ENT-09-06,ANL-009
+AL-F0ACD3CE,ENT-07,high,insider_threat,closed,False,2026-06-22T10:15:32,2026-06-22T11:09:50,54.3,Mouth husband including per nature wind himself future sport opportunity six.,AST-ENT-07-12,ANL-007
+AL-2230160D,ENT-07,medium,unauthorized_access,escalated,True,2026-04-07T08:23:23,2026-04-07T10:45:11,141.8,Responsibility actually TV pretty up story life police guess sea three state some around pay more.,AST-ENT-07-11,ANL-021
+AL-9C8FA2FA,ENT-07,low,insider_threat,open,False,2026-02-28T20:20:18,,,Read live maybe painting Republican hear system man.,AST-ENT-07-04,ANL-008
+AL-EE4C70E1,ENT-07,low,unauthorized_access,open,False,2026-01-18T05:29:35,,,Strong back democratic mind big discuss history cover.,AST-ENT-07-09,ANL-008
+AL-02D29560,ENT-06,low,policy_violation,closed,False,2026-01-31T16:15:23,2026-01-31T17:14:59,59.6,Learn forward beautiful approach some newspaper offer.,AST-ENT-06-05,ANL-010
+AL-1E996B87,ENT-10,medium,unauthorized_access,closed,False,2026-03-18T06:57:57,2026-03-18T08:01:15,63.3,Matter probably great different international sell several.,AST-ENT-10-13,ANL-005
+AL-CA7E94A1,ENT-07,high,insider_threat,escalated,True,2026-04-01T07:19:37,2026-04-01T09:03:19,103.7,Couple general pretty show college glass start sort perhaps key under do.,AST-ENT-07-05,ANL-023
+AL-1C163B47,ENT-10,medium,insider_threat,closed,False,2026-04-16T11:27:28,2026-04-16T14:11:52,164.4,Floor include food heart still building dark sell.,AST-ENT-10-13,ANL-001
+AL-9CDD1676,ENT-07,critical,unauthorized_access,closed,False,2026-02-08T17:20:15,2026-02-08T18:42:09,81.9,Nothing behavior sort recognize best financial popular short like water century time election guy.,AST-ENT-07-17,ANL-001
+AL-633F0FF1,ENT-04,low,policy_violation,closed,False,2026-03-06T00:09:54,2026-03-06T00:33:00,23.1,Investigated and closed. False positive.,AST-ENT-04-02,ANL-004
+AL-42D743A1,ENT-01,high,malware,closed,False,2026-03-03T09:29:33,2026-03-03T09:50:27,20.9,Finish summer rest feel finally impact I fast camera inside wait quality total past feeling nature.,AST-ENT-01-19,ANL-003
+AL-EF3845AC,ENT-05,medium,unauthorized_access,open,False,2026-06-06T03:16:04,,,Single maintain piece computer play above event seven collection.,AST-ENT-05-20,ANL-010
+AL-04FE5623,ENT-02,medium,policy_violation,closed,False,2026-03-10T09:56:04,2026-03-10T11:59:10,123.1,Central parent sit alone attack sing hand.,AST-ENT-02-05,ANL-004
+AL-E831F6E3,ENT-06,low,insider_threat,closed,False,2026-04-18T22:55:56,2026-04-18T23:10:38,14.7,Threat high expert place certain cold space front piece occur support author class direction.,AST-ENT-06-CORE,ANL-005
+AL-E085E3D0,ENT-09,high,dos_attempt,closed,False,2026-06-17T01:45:18,2026-06-17T02:51:00,65.7,Born administration wife teacher decide possible power job personal so.,AST-ENT-09-CORE,ANL-015
+AL-2DECA23A,ENT-01,medium,malware,closed,False,2026-05-12T09:38:53,2026-05-12T11:37:29,118.6,Agent every development say quality throughout beautiful instead.,AST-ENT-01-CORE,ANL-007
+AL-E6E7FFD7,ENT-01,low,dos_attempt,open,False,2026-01-24T13:34:19,,,Husband available picture approach chance none fight yes.,AST-ENT-01-18,ANL-011
+AL-7B3DB365,ENT-09,medium,insider_threat,open,False,2026-01-21T16:09:45,,,Short Congress turn east marriage behind forget expect wonder business health upon black food ahead.,AST-ENT-09-04,ANL-017
+AL-39C56F85,ENT-06,medium,dos_attempt,closed,False,2026-04-24T09:35:08,2026-04-24T10:20:08,45.0,Character management game find son your less social.,AST-ENT-06-09,ANL-024
+AL-52304DBE,ENT-01,low,data_exfiltration,escalated,True,2026-02-05T06:55:07,2026-02-05T07:24:07,29.0,Left approach million performance material kind appear environment capital explain thing machine ahead picture son.,AST-ENT-01-11,ANL-025
+AL-50090A86,ENT-05,low,dos_attempt,escalated,True,2026-05-06T19:45:31,2026-05-06T20:35:31,50.0,Particularly television they road through low maintain thought key as pressure actually.,AST-ENT-05-08,ANL-006
+AL-D1DF7BAC,ENT-03,low,malware,open,False,2026-06-18T08:25:25,,,Relationship million night your long heavy what least.,AST-ENT-03-01,ANL-016
+AL-5F1718DE,ENT-07,medium,malware,closed,False,2026-02-03T10:30:32,2026-02-03T12:33:14,122.7,Fish they risk she they increase in kitchen value.,AST-ENT-07-13,ANL-013
+AL-DECB001E,ENT-09,high,dos_attempt,open,False,2026-05-06T08:29:18,,,Wonder interest method imagine seven fire letter mind many guess explain reveal.,AST-ENT-09-05,ANL-007
