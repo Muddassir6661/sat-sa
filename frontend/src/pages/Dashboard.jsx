@@ -1,4 +1,5 @@
 import EntityRow from '../components/EntityRow'
+import ExportButtons from '../components/ExportButtons'
 import SummaryBar from '../components/SummaryBar'
 
 export default function Dashboard({ entities, onSelect }) {
@@ -12,7 +13,10 @@ export default function Dashboard({ entities, onSelect }) {
     <>
       <SummaryBar entities={entities} />
 
-      <p className="section-label">Requires Attention — ranked by risk</p>
+      <div className="section-head">
+        <p className="section-label">Requires Attention — ranked by risk</p>
+        <ExportButtons entities={entities} />
+      </div>
       {flagged.length === 0 ? (
         <div className="empty">No findings in this dataset. Every entity passed all checks.</div>
       ) : (
