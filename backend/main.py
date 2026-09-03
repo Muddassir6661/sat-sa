@@ -53,6 +53,14 @@ def get_entities():
     return _state["result"]
 
 
+@app.get("/api/entities/{entity_id}", response_model=Entity)
+def get_entity(entity_id: str):
+    for entity in _state["result"]["entities"]:
+        if entity["entity_id"] == entity_id:
+            return entity
+    raise HTTPException(status_code=404, detail=f"Unknown entity: {entity_id}")
+
+
 if __name__ == "__main__":
     import uvicorn
 
