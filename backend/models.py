@@ -27,3 +27,11 @@ class Entity(BaseModel):
 
 class DetectionResult(BaseModel):
     entities: List[Entity]
+
+
+class AlertsResponse(BaseModel):
+    # Rows stay untyped dicts rather than a fixed 12-field model: Pydantic drops
+    # unknown fields, which would silently hide any column the detection team
+    # adds -- the opposite of what a raw-data view is for.
+    alerts: List[Dict[str, Any]]
+    count: int

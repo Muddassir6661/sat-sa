@@ -1,5 +1,6 @@
 """SAT-SA backend — serves the detection engine's findings to the dashboard."""
 
+import math
 import os
 import sys
 from contextlib import asynccontextmanager
@@ -16,23 +17,39 @@ import pandas as pd  # noqa: E402
 from fastapi import FastAPI, HTTPException  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 
-from backend.models import DetectionResult, Entity  # noqa: E402
+from backend.models import AlertsResponse, DetectionResult, Entity  # noqa: E402
 from detection.dataset_generator import generate_new_dataset  # noqa: E402
 from detection.detection import run_detection  # noqa: E402
 
 CSV_PATH = REPO_ROOT / "detection" / "data" / "synthetic_alerts.csv"
 
-_state: dict = {"result": {"entities": []}}
+_state: dict = {"result": {"entities": []}, "records": []}
 
 
-def _detect_from_csv() -> dict:
-    df = pd.read_csv(CSV_PATH)
-    return run_detection(df.to_dict(orient="records"))
+def _json_safe(records: list[dict]) -> list[dict]:
+    """Open alerts carry NaN for time_closed/closure_time_minutes, and Starlette
+    serialises with allow_nan=False -- so unsanitised records 500 the response."""
+    return [
+        {k: (None if isinstance(v, float) and math.isnan(v) else v) for k, v in row.items()}
+        for row in records
+    ]
+
+
+def _ingest(records: list[dict]) -> dict:
+    """Detection reads NaN via pandas, so it gets the raw records; only the copy
+    cached for /api/alerts is sanitised."""
+    _state["result"] = run_detection(records)
+    _state["records"] = _json_safe(records)
+    return _state["result"]
+
+
+def _records_from_csv() -> list[dict]:
+    return pd.read_csv(CSV_PATH).to_dict(orient="records")
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    _state["result"] = _detect_from_csv() if CSV_PATH.exists() else run_detection(generate_new_dataset())
+    _ingest(_records_from_csv() if CSV_PATH.exists() else generate_new_dataset())
     yield
 
 
@@ -61,16 +78,20 @@ def get_entity(entity_id: str):
     raise HTTPException(status_code=404, detail=f"Unknown entity: {entity_id}")
 
 
+@app.get("/api/alerts", response_model=AlertsResponse)
+def get_alerts():
+    records = _state["records"]
+    return {"alerts": records, "count": len(records)}
+
+
 @app.post("/api/run-detection", response_model=DetectionResult)
 def rerun_detection():
-    _state["result"] = _detect_from_csv()
-    return _state["result"]
+    return _ingest(_records_from_csv())
 
 
 @app.post("/api/generate-dataset", response_model=DetectionResult)
 def generate_dataset():
-    _state["result"] = run_detection(generate_new_dataset(save_to_csv=True))
-    return _state["result"]
+    return _ingest(generate_new_dataset(save_to_csv=True))
 
 
 if __name__ == "__main__":
