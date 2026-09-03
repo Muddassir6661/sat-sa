@@ -61,6 +61,18 @@ def get_entity(entity_id: str):
     raise HTTPException(status_code=404, detail=f"Unknown entity: {entity_id}")
 
 
+@app.post("/api/run-detection", response_model=DetectionResult)
+def rerun_detection():
+    _state["result"] = _detect_from_csv()
+    return _state["result"]
+
+
+@app.post("/api/generate-dataset", response_model=DetectionResult)
+def generate_dataset():
+    _state["result"] = run_detection(generate_new_dataset(save_to_csv=True))
+    return _state["result"]
+
+
 if __name__ == "__main__":
     import uvicorn
 
