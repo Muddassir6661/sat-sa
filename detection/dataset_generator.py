@@ -136,6 +136,20 @@ def generate_dataset():
     return df
 
 
+def generate_new_dataset(save_to_csv=True) -> list[dict]:
+    """
+    Shared contract function — called by the backend's 'Generate New Dataset'
+    feature. Generates a fresh randomized dataset each call (no fixed seed),
+    optionally saves it to the standard CSV path, and returns the records
+    as a list of dicts ready to pass into run_detection().
+    """
+    random.seed()  # unseed for true randomness on each live-generated run
+    df = generate_dataset()
+    if save_to_csv:
+        df.to_csv("detection/data/synthetic_alerts.csv", index=False)
+    return df.to_dict(orient="records")
+
+
 if __name__ == "__main__":
     df = generate_dataset()
     out_path = "detection/data/synthetic_alerts.csv"
