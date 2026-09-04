@@ -52,6 +52,7 @@ same-origin.
 | GET | `/api/alerts` | The underlying alert records the findings were drawn from |
 | POST | `/api/run-detection` | Re-runs detection on the current CSV |
 | POST | `/api/generate-dataset` | Generates a fresh dataset, re-runs detection, returns results |
+| POST | `/api/upload-dataset` | Runs detection on an uploaded CSV (`multipart/form-data`, field `file`) |
 
 Interactive docs at http://127.0.0.1:8000/docs.
 
@@ -64,6 +65,9 @@ Interactive docs at http://127.0.0.1:8000/docs.
 - **Evidence click-through** — alert IDs cited by a flag are clickable and jump to those
   exact rows in the Dataset tab, so any finding can be verified against the raw records.
 - **Generate New Dataset** — builds a fresh synthetic dataset live and re-runs detection.
+- **Overview** — flag-type, disposition, and closure-time breakdowns at a glance.
+- **Upload Dataset** — run the same pipeline on your own CSV (must match the schema
+  below); errors like missing columns show inline rather than failing silently.
 
 ## Run detection standalone
 ```
