@@ -3,6 +3,7 @@ import { generateDataset, getAlerts, getEntities } from './api/client'
 import Dashboard from './pages/Dashboard'
 import DatasetView from './pages/DatasetView'
 import EntityDetail from './pages/EntityDetail'
+import Overview from './pages/Overview'
 
 export default function App() {
   const [entities, setEntities] = useState([])
@@ -85,6 +86,12 @@ export default function App() {
           Findings
         </button>
         <button
+          className={tab === 'overview' ? 'tab active' : 'tab'}
+          onClick={() => switchTab('overview')}
+        >
+          Overview
+        </button>
+        <button
           className={tab === 'dataset' ? 'tab active' : 'tab'}
           onClick={() => switchTab('dataset')}
         >
@@ -106,6 +113,8 @@ export default function App() {
       {status === 'ready' &&
         (tab === 'dataset' ? (
           <DatasetView alerts={alerts} focus={focus} onClearFocus={() => setFocus(null)} />
+        ) : tab === 'overview' ? (
+          <Overview entities={entities} alerts={alerts} />
         ) : selected ? (
           <EntityDetail
             entity={selected}
