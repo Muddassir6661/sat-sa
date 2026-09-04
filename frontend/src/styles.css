@@ -21,6 +21,11 @@
   --sev-medium: #ffab38;
   --sev-low: #7d95ab;
 
+  /* Disposition breakdown chart — validated against --panel via validate_palette.js */
+  --disposition-open: #3987e5;
+  --disposition-closed: #008300;
+  --disposition-escalated: #d55181;
+
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, monospace;
 }
 
@@ -186,6 +191,68 @@ body {
   color: var(--muted); margin-right: 4px;
 }
 .export-sep { color: var(--border); }
+
+/* ---------- charts: shared ---------- */
+.chart-card {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 10px; padding: 18px 20px; margin-bottom: 16px;
+}
+.chart-title { margin: 0 0 3px; font-size: 14px; font-weight: 650; }
+.chart-caption { margin: 0 0 16px; font-size: 12.5px; color: var(--muted); }
+
+.chart-tooltip-slot { height: 26px; margin-top: 8px; }
+.chart-tooltip {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: var(--panel-hi); border: 1px solid var(--border); border-radius: 7px;
+  padding: 5px 10px; font-size: 12.5px;
+}
+.tip-swatch { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
+.tip-value { font-family: var(--mono); font-weight: 650; }
+.tip-label { color: var(--muted); }
+.tip-pct { font-family: var(--mono); color: var(--muted); margin-left: 2px; }
+
+/* ---------- stacked bar ---------- */
+.stacked-bar-track {
+  display: flex; gap: 2px; width: 100%; border-radius: 5px; overflow: hidden;
+}
+.stacked-bar-seg {
+  flex-grow: 0; flex-shrink: 0; cursor: pointer; outline: none;
+  transition: opacity .12s;
+}
+.stacked-bar-seg:focus-visible { box-shadow: inset 0 0 0 2px var(--text); }
+
+.stacked-bar-legend { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 16px; }
+.stacked-bar-legend li {
+  display: flex; align-items: center; gap: 7px; font-size: 13px; cursor: pointer;
+  padding: 3px 6px; margin: -3px -6px; border-radius: 6px; transition: background .12s;
+}
+.stacked-bar-legend li.active, .stacked-bar-legend li:hover { background: var(--panel-hi); }
+.legend-label { color: var(--text); }
+.legend-value { font-family: var(--mono); font-weight: 600; margin-left: 2px; }
+.legend-pct { color: var(--muted); font-weight: 400; }
+
+/* ---------- histogram ---------- */
+.histogram-plot { display: flex; align-items: flex-end; gap: 6px; }
+.histogram-col {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+  justify-content: flex-end; gap: 4px; cursor: pointer; outline: none; min-width: 0;
+}
+.histogram-col:focus-visible .histogram-bar { box-shadow: inset 0 0 0 2px var(--text); }
+.histogram-bar { width: 100%; border-radius: 4px 4px 0 0; transition: opacity .12s; }
+.histogram-count { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.histogram-axis {
+  display: flex; gap: 6px; margin-top: 8px; padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.histogram-tick {
+  flex: 1; text-align: center; font-size: 10.5px; color: var(--muted);
+  font-family: var(--mono); min-width: 0;
+}
+
+/* ---------- overview grid ---------- */
+.overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.overview-grid .chart-card:last-child { grid-column: 1 / -1; }
+@media (max-width: 720px) { .overview-grid { grid-template-columns: 1fr; } }
 
 /* ---------- evidence click-through ---------- */
 .ev-ids { display: flex; flex-wrap: wrap; gap: 5px; }
