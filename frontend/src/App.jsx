@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { generateDataset, getAlerts, getEntities } from './api/client'
+import { generateDataset, getAlerts, getEntities, uploadDataset } from './api/client'
 import Dashboard from './pages/Dashboard'
 import DatasetView from './pages/DatasetView'
 import EntityDetail from './pages/EntityDetail'
@@ -13,6 +13,8 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(null)
   const [status, setStatus] = useState('loading')
   const [generating, setGenerating] = useState(false)
+  const [uploading, setUploading] = useState(false)
+  const [uploadError, setUploadError] = useState(null)
   const [error, setError] = useState(null)
 
   const load = useCallback(async () => {
@@ -50,6 +52,29 @@ export default function App() {
     }
   }
 
+  async function handleUpload(e) {
+    const file = e.target.files?.[0]
+    // Reset now (not just after) so picking the same file twice in a row
+    // still fires onChange the second time.
+    e.target.value = ''
+    if (!file) return
+
+    setUploading(true)
+    setUploadError(null)
+    try {
+      const findings = await uploadDataset(file)
+      setEntities(findings.entities)
+      const dataset = await getAlerts()
+      setAlerts(dataset.alerts)
+      setSelectedId(null)
+      setFocus(null)
+    } catch (err) {
+      setUploadError(err.message)
+    } finally {
+      setUploading(false)
+    }
+  }
+
   function handleViewAlerts(alertIds, flag) {
     setFocus({ alertIds, flagId: flag.flag_id, rule: flag.rule_triggered })
     setTab('dataset')
@@ -72,11 +97,31 @@ export default function App() {
           </h1>
           <p>Supervisory Analytics Tool for SOC Assessment</p>
         </div>
-        <button className="generate-btn" onClick={handleGenerate} disabled={generating}>
-          {generating && <span className="spinner" />}
-          {generating ? 'Generating…' : 'Generate New Dataset'}
-        </button>
+        <div className="data-actions">
+          <button className="generate-btn" onClick={handleGenerate} disabled={generating || uploading}>
+            {generating && <span className="spinner" />}
+            {generating ? 'Generating…' : 'Generate New Dataset'}
+          </button>
+          <label className={`generate-btn upload-btn${uploading ? ' disabled' : ''}`}>
+            {uploading && <span className="spinner" />}
+            {uploading ? 'Processing…' : 'Upload Dataset'}
+            <input
+              type="file"
+              accept=".csv"
+              onChange={handleUpload}
+              disabled={generating || uploading}
+              hidden
+            />
+          </label>
+        </div>
       </header>
+
+      {uploadError && (
+        <div className="upload-error">
+          <strong>Upload failed:</strong> {uploadError}
+          <button className="link-btn" onClick={() => setUploadError(null)}>Dismiss</button>
+        </div>
+      )}
 
       <nav className="tabs">
         <button

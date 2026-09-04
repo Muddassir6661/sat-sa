@@ -67,6 +67,23 @@ body {
 .generate-btn:hover:not(:disabled) { border-color: var(--low); background: #1c2836; }
 .generate-btn:disabled { opacity: .6; cursor: progress; }
 
+.data-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* .upload-btn is a <label> (needs a real click target around the hidden
+   file input), so it has no native :disabled — a class stands in. */
+.upload-btn.disabled { opacity: .6; cursor: progress; pointer-events: none; }
+.upload-btn:not(.disabled):hover { border-color: var(--low); background: #1c2836; }
+
+.upload-error {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  background: rgba(255, 77, 94, .08); border: 1px solid #4a2530;
+  border-radius: 9px; padding: 11px 15px; margin: -12px 0 22px;
+  font-size: 13.5px; color: var(--text);
+}
+.upload-error strong { color: var(--high); }
+.upload-error .link-btn { margin-left: auto; color: var(--muted); }
+.upload-error .link-btn:hover { color: var(--text); }
+
 .spinner {
   width: 13px; height: 13px; border-radius: 50%;
   border: 2px solid var(--muted); border-top-color: transparent;
