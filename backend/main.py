@@ -1,5 +1,6 @@
 """SAT-SA backend — serves the detection engine's findings to the dashboard."""
 
+import io
 import math
 import os
 import sys
@@ -14,7 +15,7 @@ sys.path.insert(0, str(REPO_ROOT))
 os.chdir(REPO_ROOT)
 
 import pandas as pd  # noqa: E402
-from fastapi import FastAPI, HTTPException  # noqa: E402
+from fastapi import FastAPI, File, HTTPException, UploadFile  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 
 from backend.models import AlertsResponse, DetectionResult, Entity  # noqa: E402
@@ -22,6 +23,16 @@ from detection.dataset_generator import generate_new_dataset  # noqa: E402
 from detection.detection import run_detection  # noqa: E402
 
 CSV_PATH = REPO_ROOT / "detection" / "data" / "synthetic_alerts.csv"
+
+# The full alert schema from the build guides. Detection itself only reads a
+# subset of these, but validating against the whole documented contract gives
+# an uploader a clear error now instead of a confusing one if a future rule
+# starts reading a column that's silently missing today.
+REQUIRED_COLUMNS = [
+    "alert_id", "entity_id", "severity", "category", "disposition", "escalated",
+    "time_opened", "time_closed", "closure_time_minutes", "investigation_notes",
+    "asset_id", "analyst_id",
+]
 
 _state: dict = {"result": {"entities": []}, "records": []}
 
@@ -92,6 +103,39 @@ def rerun_detection():
 @app.post("/api/generate-dataset", response_model=DetectionResult)
 def generate_dataset():
     return _ingest(generate_new_dataset(save_to_csv=True))
+
+
+@app.post("/api/upload-dataset", response_model=DetectionResult)
+async def upload_dataset(file: UploadFile = File(...)):
+    contents = await file.read()
+    try:
+        df = pd.read_csv(io.BytesIO(contents))
+    except UnicodeDecodeError:
+        raise HTTPException(
+            status_code=400,
+            detail="Not a valid CSV file: not UTF-8 text (looks like a binary or non-text file).",
+        )
+    except (pd.errors.EmptyDataError, pd.errors.ParserError) as e:
+        raise HTTPException(status_code=400, detail=f"Not a valid CSV file: {e}")
+
+    if df.empty:
+        raise HTTPException(status_code=400, detail="The uploaded CSV has no rows.")
+
+    missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    if missing:
+        raise HTTPException(
+            status_code=400,
+            detail=f"CSV is missing required columns: {', '.join(missing)}",
+        )
+
+    try:
+        return _ingest(df.to_dict(orient="records"))
+    except Exception as e:
+        # Detection expects specific dtypes per column (e.g. numeric closure
+        # times); a malformed value can still raise this deep in pandas/sklearn
+        # even though the columns all exist. Surface it as a clean 400 instead
+        # of a raw traceback.
+        raise HTTPException(status_code=400, detail=f"Could not process this dataset: {e}")
 
 
 if __name__ == "__main__":

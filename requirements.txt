@@ -4,3 +4,4 @@ scikit-learn
 faker
 fastapi
 uvicorn
+python-multipart
